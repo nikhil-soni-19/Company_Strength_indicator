@@ -1,9 +1,8 @@
-# Local secrets & environments (all agents)
 .env
-.venv/
 __pycache__/
 *.py[cod]
 *.egg-info/
+.venv/
 .pytest_cache/
 .claude/
 .DS_Store
