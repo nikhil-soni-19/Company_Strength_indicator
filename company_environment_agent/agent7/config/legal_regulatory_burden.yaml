@@ -1,0 +1,20 @@
+# Legal dimension config by GICS sector
+#
+# regulatory_complexity : 0.0 (light-touch) → 1.0 (heavily regulated, large compliance spend)
+# litigation_exposure   : 0.0 (low) → 1.0 (very high class-action / government enforcement risk)
+#
+# Both axes are headwinds; high values lower the Legal sub-score.
+# LLM layer grounds this with 10-K risk-factor language and live legal/regulatory news.
+
+Financials:             { regulatory_complexity: 0.92, litigation_exposure: 0.62 }
+Health Care:            { regulatory_complexity: 0.82, litigation_exposure: 0.72 }
+Utilities:              { regulatory_complexity: 0.78, litigation_exposure: 0.42 }
+Energy:                 { regulatory_complexity: 0.72, litigation_exposure: 0.58 }
+Materials:              { regulatory_complexity: 0.62, litigation_exposure: 0.52 }
+Communication Services: { regulatory_complexity: 0.58, litigation_exposure: 0.45 }
+Industrials:            { regulatory_complexity: 0.52, litigation_exposure: 0.48 }
+Real Estate:            { regulatory_complexity: 0.50, litigation_exposure: 0.42 }
+Information Technology: { regulatory_complexity: 0.42, litigation_exposure: 0.48 }
+Consumer Staples:       { regulatory_complexity: 0.42, litigation_exposure: 0.38 }
+Consumer Discretionary: { regulatory_complexity: 0.36, litigation_exposure: 0.38 }
+default:                { regulatory_complexity: 0.48, litigation_exposure: 0.42 }

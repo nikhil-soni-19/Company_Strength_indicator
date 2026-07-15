@@ -1,0 +1,19 @@
+# Technological dimension config by GICS sector
+#
+# tech_disruption_exposure : 0.0 (sector IS the disruptor) → 1.0 (sector highly at risk of disruption)
+# rd_capex_importance      : 0.0 (low) → 1.0 (high — R&D/CapEx investment critical for competitive moat)
+#
+# Used in scoring: higher disruption exposure with low R&D intensity vs peers = tech headwind.
+
+Information Technology: { tech_disruption_exposure: 0.15, rd_capex_importance: 0.90 }
+Health Care:            { tech_disruption_exposure: 0.30, rd_capex_importance: 0.85 }
+Financials:             { tech_disruption_exposure: 0.60, rd_capex_importance: 0.55 }
+Energy:                 { tech_disruption_exposure: 0.65, rd_capex_importance: 0.60 }
+Industrials:            { tech_disruption_exposure: 0.45, rd_capex_importance: 0.65 }
+Materials:              { tech_disruption_exposure: 0.35, rd_capex_importance: 0.45 }
+Consumer Discretionary: { tech_disruption_exposure: 0.55, rd_capex_importance: 0.40 }
+Consumer Staples:       { tech_disruption_exposure: 0.40, rd_capex_importance: 0.30 }
+Utilities:              { tech_disruption_exposure: 0.50, rd_capex_importance: 0.50 }
+Real Estate:            { tech_disruption_exposure: 0.30, rd_capex_importance: 0.20 }
+Communication Services: { tech_disruption_exposure: 0.40, rd_capex_importance: 0.60 }
+default:                { tech_disruption_exposure: 0.40, rd_capex_importance: 0.50 }

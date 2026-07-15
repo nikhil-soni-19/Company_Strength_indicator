@@ -1,0 +1,5 @@
+Energy:                 { "CL=F": +1, "NG=F": +1 }
+Materials:              { "HG=F": +1, "GC=F": +1 }
+Industrials:            { "CL=F": -1, "HG=F": -1 }
+Consumer Discretionary: { "CL=F": -1 }
+Utilities:              { "NG=F": -1 }

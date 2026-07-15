@@ -1,0 +1,4 @@
+vix_zscore_high:        1.0    # symmetric ±1σ per blueprint
+vix_zscore_low:        -1.0
+rate_slope_sigma_mult:  1.0
+zscore_lookback_years:  3

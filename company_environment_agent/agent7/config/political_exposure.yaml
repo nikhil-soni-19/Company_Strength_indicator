@@ -1,0 +1,21 @@
+# Political exposure by GICS sector
+#
+# govt_dependency   : 0.0 (pure market) → 1.0 (revenue/pricing fully government-controlled)
+# trade_sensitivity : -1.0 (export-heavy, hurt by strong USD)
+#                     0.0  (domestically-oriented)
+#                    +1.0  (import-heavy/input buyer, helped by strong USD on cost side)
+#
+# These are baseline scores; the LLM adjusts directionally from live news.
+
+Information Technology: { govt_dependency: 0.35, trade_sensitivity: -0.50 }
+Financials:             { govt_dependency: 0.65, trade_sensitivity:  0.10 }
+Energy:                 { govt_dependency: 0.55, trade_sensitivity: -0.30 }
+Health Care:            { govt_dependency: 0.70, trade_sensitivity: -0.20 }
+Consumer Discretionary: { govt_dependency: 0.20, trade_sensitivity: -0.20 }
+Consumer Staples:       { govt_dependency: 0.25, trade_sensitivity: -0.30 }
+Industrials:            { govt_dependency: 0.45, trade_sensitivity: -0.50 }
+Materials:              { govt_dependency: 0.40, trade_sensitivity: -0.40 }
+Utilities:              { govt_dependency: 0.75, trade_sensitivity:  0.00 }
+Real Estate:            { govt_dependency: 0.50, trade_sensitivity:  0.00 }
+Communication Services: { govt_dependency: 0.55, trade_sensitivity: -0.10 }
+default:                { govt_dependency: 0.40, trade_sensitivity: -0.20 }

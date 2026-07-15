@@ -1,0 +1,12 @@
+Financials:             nim
+Information Technology: gross_margin
+Energy:                 operating_margin
+Materials:              operating_margin
+Industrials:            operating_margin
+Consumer Discretionary: operating_margin
+Consumer Staples:       gross_margin
+Health Care:            gross_margin
+Utilities:              operating_margin
+Real Estate:            ffo_margin
+Communication Services: ebitda_margin
+default:                operating_margin

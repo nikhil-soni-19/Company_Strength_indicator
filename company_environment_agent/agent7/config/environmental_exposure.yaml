@@ -1,0 +1,20 @@
+# Environmental dimension config by GICS sector
+#
+# carbon_intensity              : 0.0 (negligible emissions) → 1.0 (very high direct emitter)
+# environmental_regulatory_burden: 0.0 (minimal oversight) → 1.0 (very heavy EPA/ESG regulatory load)
+#
+# High scores on either axis = structural Environmental headwind in the scoring model.
+# LLM layer adjusts for live climate regulation news and company-specific ESG disclosures.
+
+Energy:                 { carbon_intensity: 0.95, environmental_regulatory_burden: 0.90 }
+Utilities:              { carbon_intensity: 0.75, environmental_regulatory_burden: 0.82 }
+Materials:              { carbon_intensity: 0.75, environmental_regulatory_burden: 0.72 }
+Industrials:            { carbon_intensity: 0.55, environmental_regulatory_burden: 0.55 }
+Real Estate:            { carbon_intensity: 0.40, environmental_regulatory_burden: 0.45 }
+Consumer Staples:       { carbon_intensity: 0.35, environmental_regulatory_burden: 0.38 }
+Consumer Discretionary: { carbon_intensity: 0.30, environmental_regulatory_burden: 0.32 }
+Health Care:            { carbon_intensity: 0.22, environmental_regulatory_burden: 0.35 }
+Information Technology: { carbon_intensity: 0.18, environmental_regulatory_burden: 0.22 }
+Communication Services: { carbon_intensity: 0.15, environmental_regulatory_burden: 0.18 }
+Financials:             { carbon_intensity: 0.10, environmental_regulatory_burden: 0.18 }
+default:                { carbon_intensity: 0.35, environmental_regulatory_burden: 0.38 }
