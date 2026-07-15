@@ -1,0 +1,26 @@
+# Credentials — never commit
+database_cloud.env
+*.env
+*.dump
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Models & data
+*.pkl
+*.joblib
+*.onnx
+.milestone_cache/
+.tavily_cache/
+
+# IDE
+.idea/
+.vscode/
+*.DS_Store
