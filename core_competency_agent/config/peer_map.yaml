@@ -1,0 +1,4040 @@
+# S&P 500 constituents with GICS classification, peers, and ETFs
+# Generated from the current S&P 500 constituent list (503 securities;
+# 500 companies, with dual share classes for Alphabet, Fox, and News Corp).
+# Fields per entry:
+#   ticker, name, gics_sector, sector_etf,
+#   gics_industry_group, industry_group_etf (empty if no prominent dedicated ETF),
+#   gics_sub_industry (peer basis), peers (same-sub-industry S&P 500 tickers)
+
+metadata:
+  source: en.wikipedia.org/wiki/List_of_S%26P_500_companies
+  gics_version: "GICS 2023 (11 sectors, 25 industry groups)"
+  peer_definition: "Other S&P 500 members sharing the same GICS sub-industry"
+  sector_etfs: SPDR Select Sector funds
+  count: 503
+
+constituents:
+  - ticker: MMM
+    name: "3M"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Industrial Conglomerates"
+    peers: [HON]
+  - ticker: AOS
+    name: "A. O. Smith"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Building Products"
+    peers: [ALLE, BLDR, CARR, JCI, LII, MAS, TT]
+  - ticker: ABT
+    name: "Abbott Laboratories"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Equipment"
+    peers: [BAX, BDX, BSX, DXCM, EW, GEHC, IDXX, ISRG, MDT, PODD, RMD, RVTY, STE, SYK, ZBH]
+  - ticker: ABBV
+    name: "AbbVie"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Pharmaceuticals, Biotechnology & Life Sciences"
+    industry_group_etf:
+    gics_sub_industry: "Biotechnology"
+    peers: [AMGN, BIIB, GILD, INCY, MRNA, REGN, VRTX]
+  - ticker: ACN
+    name: "Accenture"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "IT Consulting & Other Services"
+    peers: [CTSH, EPAM, IBM, IT]
+  - ticker: ADBE
+    name: "Adobe Inc."
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "Application Software"
+    peers: [ADSK, APP, CDNS, CRM, DDOG, FICO, INTU, ORCL, PLTR, PTC, SNPS, TRMB, TYL, WDAY]
+  - ticker: AMD
+    name: "Advanced Micro Devices"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Semiconductors & Semiconductor Equipment"
+    industry_group_etf: SMH
+    gics_sub_industry: "Semiconductors"
+    peers: [ADI, AVGO, FSLR, INTC, MCHP, MPWR, MU, NVDA, NXPI, "ON", QCOM, SWKS, TXN]
+  - ticker: AES
+    name: "AES Corporation"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Independent Power Producers & Energy Traders"
+    peers: [NRG]
+  - ticker: AFL
+    name: "Aflac"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Insurance"
+    industry_group_etf: KIE
+    gics_sub_industry: "Life & Health Insurance"
+    peers: [GL, MET, PFG, PRU]
+  - ticker: A
+    name: "Agilent Technologies"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Pharmaceuticals, Biotechnology & Life Sciences"
+    industry_group_etf:
+    gics_sub_industry: "Life Sciences Tools & Services"
+    peers: [CRL, DHR, IQV, MTD, TECH, TMO, WAT]
+  - ticker: APD
+    name: "Air Products"
+    gics_sector: "Materials"
+    sector_etf: XLB
+    gics_industry_group: "Materials"
+    industry_group_etf:
+    gics_sub_industry: "Industrial Gases"
+    peers: [LIN]
+  - ticker: ABNB
+    name: "Airbnb"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Services"
+    industry_group_etf:
+    gics_sub_industry: "Hotels, Resorts & Cruise Lines"
+    peers: [BKNG, CCL, EXPE, HLT, MAR, NCLH, RCL]
+  - ticker: AKAM
+    name: "Akamai Technologies"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "Internet Services & Infrastructure"
+    peers: [GDDY, VRSN]
+  - ticker: ALB
+    name: "Albemarle Corporation"
+    gics_sector: "Materials"
+    sector_etf: XLB
+    gics_industry_group: "Materials"
+    industry_group_etf:
+    gics_sub_industry: "Specialty Chemicals"
+    peers: [DD, ECL, IFF, LYB, PPG, SHW]
+  - ticker: ARE
+    name: "Alexandria Real Estate Equities"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Office REITs"
+    peers: [BXP]
+  - ticker: ALGN
+    name: "Align Technology"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Supplies"
+    peers: [COO, WST]
+  - ticker: ALLE
+    name: "Allegion"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Building Products"
+    peers: [AOS, BLDR, CARR, JCI, LII, MAS, TT]
+  - ticker: LNT
+    name: "Alliant Energy"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Electric Utilities"
+    peers: [AEP, CEG, DUK, EIX, ES, ETR, EVRG, EXC, FE, PEG, PPL, SO, VST, WEC]
+  - ticker: ALL
+    name: "Allstate"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Insurance"
+    industry_group_etf: KIE
+    gics_sub_industry: "Property & Casualty Insurance"
+    peers: [ACGL, CB, CINF, HIG, PGR, TRV, WRB]
+  - ticker: GOOGL
+    name: "Alphabet Inc. (Class A)"
+    gics_sector: "Communication Services"
+    sector_etf: XLC
+    gics_industry_group: "Media & Entertainment"
+    industry_group_etf:
+    gics_sub_industry: "Interactive Media & Services"
+    peers: [GOOG, META]
+  - ticker: GOOG
+    name: "Alphabet Inc. (Class C)"
+    gics_sector: "Communication Services"
+    sector_etf: XLC
+    gics_industry_group: "Media & Entertainment"
+    industry_group_etf:
+    gics_sub_industry: "Interactive Media & Services"
+    peers: [GOOGL, META]
+  - ticker: MO
+    name: "Altria"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Food, Beverage & Tobacco"
+    industry_group_etf: PBJ
+    gics_sub_industry: "Tobacco"
+    peers: [PM]
+  - ticker: AMZN
+    name: "Amazon"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Discretionary Distribution & Retail"
+    industry_group_etf: XRT
+    gics_sub_industry: "Broadline Retail"
+    peers: [EBAY]
+  - ticker: AMCR
+    name: "Amcor"
+    gics_sector: "Materials"
+    sector_etf: XLB
+    gics_industry_group: "Materials"
+    industry_group_etf:
+    gics_sub_industry: "Paper & Plastic Packaging Products & Materials"
+    peers: [AVY, IP, PKG, SW]
+  - ticker: AEE
+    name: "Ameren"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Multi-Utilities"
+    peers: [CMS, CNP, D, DTE, ED, NEE, NI, PCG, PNW, SRE, XEL]
+  - ticker: AEP
+    name: "American Electric Power"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Electric Utilities"
+    peers: [CEG, DUK, EIX, ES, ETR, EVRG, EXC, FE, LNT, PEG, PPL, SO, VST, WEC]
+  - ticker: AXP
+    name: "American Express"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Consumer Finance"
+    peers: [COF, SYF]
+  - ticker: AIG
+    name: "American International Group"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Insurance"
+    industry_group_etf: KIE
+    gics_sub_industry: "Multi-line Insurance"
+    peers: [AIZ, L]
+  - ticker: AMT
+    name: "American Tower"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Telecom Tower REITs"
+    peers: [CCI, SBAC]
+  - ticker: AWK
+    name: "American Water Works"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Water Utilities"
+    peers: []
+  - ticker: AMP
+    name: "Ameriprise Financial"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Asset Management & Custody Banks"
+    peers: [APO, ARES, BEN, BLK, BNY, BX, IVZ, KKR, NTRS, STT, TROW]
+  - ticker: AME
+    name: "Ametek"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Electrical Components & Equipment"
+    peers: [EMR, ETN, GNRC, ROK, VRT]
+  - ticker: AMGN
+    name: "Amgen"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Pharmaceuticals, Biotechnology & Life Sciences"
+    industry_group_etf:
+    gics_sub_industry: "Biotechnology"
+    peers: [ABBV, BIIB, GILD, INCY, MRNA, REGN, VRTX]
+  - ticker: APH
+    name: "Amphenol"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Technology Hardware & Equipment"
+    industry_group_etf:
+    gics_sub_industry: "Electronic Components"
+    peers: [COHR, GLW]
+  - ticker: ADI
+    name: "Analog Devices"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Semiconductors & Semiconductor Equipment"
+    industry_group_etf: SMH
+    gics_sub_industry: "Semiconductors"
+    peers: [AMD, AVGO, FSLR, INTC, MCHP, MPWR, MU, NVDA, NXPI, "ON", QCOM, SWKS, TXN]
+  - ticker: AON
+    name: "Aon plc"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Insurance"
+    industry_group_etf: KIE
+    gics_sub_industry: "Insurance Brokers"
+    peers: [AJG, BRO, ERIE, MRSH, WTW]
+  - ticker: APA
+    name: "APA Corporation"
+    gics_sector: "Energy"
+    sector_etf: XLE
+    gics_industry_group: "Energy"
+    industry_group_etf:
+    gics_sub_industry: "Oil & Gas Exploration & Production"
+    peers: [COP, DVN, EOG, EQT, EXE, FANG, OXY, TPL]
+  - ticker: APO
+    name: "Apollo Global Management"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Asset Management & Custody Banks"
+    peers: [AMP, ARES, BEN, BLK, BNY, BX, IVZ, KKR, NTRS, STT, TROW]
+  - ticker: AAPL
+    name: "Apple Inc."
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Technology Hardware & Equipment"
+    industry_group_etf:
+    gics_sub_industry: "Technology Hardware, Storage & Peripherals"
+    peers: [DELL, HPE, HPQ, NTAP, SMCI, SNDK, STX, WDC]
+  - ticker: AMAT
+    name: "Applied Materials"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Semiconductors & Semiconductor Equipment"
+    industry_group_etf: SMH
+    gics_sub_industry: "Semiconductor Materials & Equipment"
+    peers: [KLAC, LRCX, Q, TER]
+  - ticker: APP
+    name: "AppLovin"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "Application Software"
+    peers: [ADBE, ADSK, CDNS, CRM, DDOG, FICO, INTU, ORCL, PLTR, PTC, SNPS, TRMB, TYL, WDAY]
+  - ticker: APTV
+    name: "Aptiv"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Automobiles & Components"
+    industry_group_etf:
+    gics_sub_industry: "Automotive Parts & Equipment"
+    peers: []
+  - ticker: ACGL
+    name: "Arch Capital Group"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Insurance"
+    industry_group_etf: KIE
+    gics_sub_industry: "Property & Casualty Insurance"
+    peers: [ALL, CB, CINF, HIG, PGR, TRV, WRB]
+  - ticker: ADM
+    name: "Archer Daniels Midland"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Food, Beverage & Tobacco"
+    industry_group_etf: PBJ
+    gics_sub_industry: "Agricultural Products & Services"
+    peers: [BG]
+  - ticker: ARES
+    name: "Ares Management"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Asset Management & Custody Banks"
+    peers: [AMP, APO, BEN, BLK, BNY, BX, IVZ, KKR, NTRS, STT, TROW]
+  - ticker: ANET
+    name: "Arista Networks"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Technology Hardware & Equipment"
+    industry_group_etf:
+    gics_sub_industry: "Communications Equipment"
+    peers: [CIEN, CSCO, FFIV, LITE, MSI]
+  - ticker: AJG
+    name: "Arthur J. Gallagher & Co."
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Insurance"
+    industry_group_etf: KIE
+    gics_sub_industry: "Insurance Brokers"
+    peers: [AON, BRO, ERIE, MRSH, WTW]
+  - ticker: AIZ
+    name: "Assurant"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Insurance"
+    industry_group_etf: KIE
+    gics_sub_industry: "Multi-line Insurance"
+    peers: [AIG, L]
+  - ticker: T
+    name: "AT&T"
+    gics_sector: "Communication Services"
+    sector_etf: XLC
+    gics_industry_group: "Telecommunication Services"
+    industry_group_etf:
+    gics_sub_industry: "Integrated Telecommunication Services"
+    peers: [VZ]
+  - ticker: ATO
+    name: "Atmos Energy"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Gas Utilities"
+    peers: []
+  - ticker: ADSK
+    name: "Autodesk"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "Application Software"
+    peers: [ADBE, APP, CDNS, CRM, DDOG, FICO, INTU, ORCL, PLTR, PTC, SNPS, TRMB, TYL, WDAY]
+  - ticker: ADP
+    name: "Automatic Data Processing"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Commercial & Professional Services"
+    industry_group_etf:
+    gics_sub_industry: "Human Resource & Employment Services"
+    peers: [PAYX]
+  - ticker: AZO
+    name: "AutoZone"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Discretionary Distribution & Retail"
+    industry_group_etf: XRT
+    gics_sub_industry: "Automotive Retail"
+    peers: [CVNA, ORLY]
+  - ticker: AVB
+    name: "AvalonBay Communities"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Multi-Family Residential REITs"
+    peers: [CPT, EQR, ESS, MAA, UDR]
+  - ticker: AVY
+    name: "Avery Dennison"
+    gics_sector: "Materials"
+    sector_etf: XLB
+    gics_industry_group: "Materials"
+    industry_group_etf:
+    gics_sub_industry: "Paper & Plastic Packaging Products & Materials"
+    peers: [AMCR, IP, PKG, SW]
+  - ticker: AXON
+    name: "Axon Enterprise"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Aerospace & Defense"
+    peers: [BA, GD, GE, HII, HWM, LHX, LMT, NOC, RTX, TDG, TXT]
+  - ticker: BKR
+    name: "Baker Hughes"
+    gics_sector: "Energy"
+    sector_etf: XLE
+    gics_industry_group: "Energy"
+    industry_group_etf:
+    gics_sub_industry: "Oil & Gas Equipment & Services"
+    peers: [HAL, SLB]
+  - ticker: BALL
+    name: "Ball Corporation"
+    gics_sector: "Materials"
+    sector_etf: XLB
+    gics_industry_group: "Materials"
+    industry_group_etf:
+    gics_sub_industry: "Metal, Glass & Plastic Containers"
+    peers: []
+  - ticker: BAC
+    name: "Bank of America"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Banks"
+    industry_group_etf: KBE
+    gics_sub_industry: "Diversified Banks"
+    peers: [C, JPM, PNC, TFC, USB, WFC]
+  - ticker: BAX
+    name: "Baxter International"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Equipment"
+    peers: [ABT, BDX, BSX, DXCM, EW, GEHC, IDXX, ISRG, MDT, PODD, RMD, RVTY, STE, SYK, ZBH]
+  - ticker: BDX
+    name: "Becton Dickinson"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Equipment"
+    peers: [ABT, BAX, BSX, DXCM, EW, GEHC, IDXX, ISRG, MDT, PODD, RMD, RVTY, STE, SYK, ZBH]
+  - ticker: BRK.B
+    name: "Berkshire Hathaway"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Multi-Sector Holdings"
+    peers: []
+  - ticker: BBY
+    name: "Best Buy"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Discretionary Distribution & Retail"
+    industry_group_etf: XRT
+    gics_sub_industry: "Computer & Electronics Retail"
+    peers: []
+  - ticker: TECH
+    name: "Bio-Techne"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Pharmaceuticals, Biotechnology & Life Sciences"
+    industry_group_etf:
+    gics_sub_industry: "Life Sciences Tools & Services"
+    peers: [A, CRL, DHR, IQV, MTD, TMO, WAT]
+  - ticker: BIIB
+    name: "Biogen"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Pharmaceuticals, Biotechnology & Life Sciences"
+    industry_group_etf:
+    gics_sub_industry: "Biotechnology"
+    peers: [ABBV, AMGN, GILD, INCY, MRNA, REGN, VRTX]
+  - ticker: BLK
+    name: "BlackRock"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Asset Management & Custody Banks"
+    peers: [AMP, APO, ARES, BEN, BNY, BX, IVZ, KKR, NTRS, STT, TROW]
+  - ticker: BX
+    name: "Blackstone Inc."
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Asset Management & Custody Banks"
+    peers: [AMP, APO, ARES, BEN, BLK, BNY, IVZ, KKR, NTRS, STT, TROW]
+  - ticker: XYZ
+    name: "Block, Inc."
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Transaction & Payment Processing Services"
+    peers: [CPAY, FIS, FISV, GPN, JKHY, MA, PYPL, V]
+  - ticker: BNY
+    name: "BNY Mellon"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Asset Management & Custody Banks"
+    peers: [AMP, APO, ARES, BEN, BLK, BX, IVZ, KKR, NTRS, STT, TROW]
+  - ticker: BA
+    name: "Boeing"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Aerospace & Defense"
+    peers: [AXON, GD, GE, HII, HWM, LHX, LMT, NOC, RTX, TDG, TXT]
+  - ticker: BKNG
+    name: "Booking Holdings"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Services"
+    industry_group_etf:
+    gics_sub_industry: "Hotels, Resorts & Cruise Lines"
+    peers: [ABNB, CCL, EXPE, HLT, MAR, NCLH, RCL]
+  - ticker: BSX
+    name: "Boston Scientific"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Equipment"
+    peers: [ABT, BAX, BDX, DXCM, EW, GEHC, IDXX, ISRG, MDT, PODD, RMD, RVTY, STE, SYK, ZBH]
+  - ticker: BMY
+    name: "Bristol Myers Squibb"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Pharmaceuticals, Biotechnology & Life Sciences"
+    industry_group_etf:
+    gics_sub_industry: "Pharmaceuticals"
+    peers: [JNJ, LLY, MRK, PFE, VTRS, ZTS]
+  - ticker: AVGO
+    name: "Broadcom"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Semiconductors & Semiconductor Equipment"
+    industry_group_etf: SMH
+    gics_sub_industry: "Semiconductors"
+    peers: [ADI, AMD, FSLR, INTC, MCHP, MPWR, MU, NVDA, NXPI, "ON", QCOM, SWKS, TXN]
+  - ticker: BR
+    name: "Broadridge Financial Solutions"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Commercial & Professional Services"
+    industry_group_etf:
+    gics_sub_industry: "Data Processing & Outsourced Services"
+    peers: []
+  - ticker: BRO
+    name: "Brown & Brown"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Insurance"
+    industry_group_etf: KIE
+    gics_sub_industry: "Insurance Brokers"
+    peers: [AJG, AON, ERIE, MRSH, WTW]
+  - ticker: BF.B
+    name: "Brown-Forman"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Food, Beverage & Tobacco"
+    industry_group_etf: PBJ
+    gics_sub_industry: "Distillers & Vintners"
+    peers: [STZ]
+  - ticker: BLDR
+    name: "Builders FirstSource"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Building Products"
+    peers: [ALLE, AOS, CARR, JCI, LII, MAS, TT]
+  - ticker: BG
+    name: "Bunge Global"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Food, Beverage & Tobacco"
+    industry_group_etf: PBJ
+    gics_sub_industry: "Agricultural Products & Services"
+    peers: [ADM]
+  - ticker: BXP
+    name: "BXP, Inc."
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Office REITs"
+    peers: [ARE]
+  - ticker: CHRW
+    name: "C.H. Robinson"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Transportation"
+    industry_group_etf: IYT
+    gics_sub_industry: "Air Freight & Logistics"
+    peers: [EXPD, FDX, UPS]
+  - ticker: CDNS
+    name: "Cadence Design Systems"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "Application Software"
+    peers: [ADBE, ADSK, APP, CRM, DDOG, FICO, INTU, ORCL, PLTR, PTC, SNPS, TRMB, TYL, WDAY]
+  - ticker: CPT
+    name: "Camden Property Trust"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Multi-Family Residential REITs"
+    peers: [AVB, EQR, ESS, MAA, UDR]
+  - ticker: CPB
+    name: "Campbell's Company (The)"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Food, Beverage & Tobacco"
+    industry_group_etf: PBJ
+    gics_sub_industry: "Packaged Foods & Meats"
+    peers: [CAG, GIS, HRL, HSY, KHC, MDLZ, MKC, SJM, TSN]
+  - ticker: COF
+    name: "Capital One"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Consumer Finance"
+    peers: [AXP, SYF]
+  - ticker: CAH
+    name: "Cardinal Health"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Distributors"
+    peers: [COR, HSIC, MCK]
+  - ticker: CCL
+    name: "Carnival Corporation"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Services"
+    industry_group_etf:
+    gics_sub_industry: "Hotels, Resorts & Cruise Lines"
+    peers: [ABNB, BKNG, EXPE, HLT, MAR, NCLH, RCL]
+  - ticker: CARR
+    name: "Carrier Global"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Building Products"
+    peers: [ALLE, AOS, BLDR, JCI, LII, MAS, TT]
+  - ticker: CVNA
+    name: "Carvana"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Discretionary Distribution & Retail"
+    industry_group_etf: XRT
+    gics_sub_industry: "Automotive Retail"
+    peers: [AZO, ORLY]
+  - ticker: CASY
+    name: "Casey's"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Consumer Staples Distribution & Retail"
+    industry_group_etf:
+    gics_sub_industry: "Food Retail"
+    peers: [KR]
+  - ticker: CAT
+    name: "Caterpillar Inc."
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Construction Machinery & Heavy Transportation Equipment"
+    peers: [CMI, PCAR, WAB]
+  - ticker: CBOE
+    name: "Cboe Global Markets"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Financial Exchanges & Data"
+    peers: [CME, COIN, FDS, ICE, MCO, MSCI, NDAQ, SPGI]
+  - ticker: CBRE
+    name: "CBRE Group"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Real Estate Management & Development"
+    industry_group_etf:
+    gics_sub_industry: "Real Estate Services"
+    peers: [CSGP]
+  - ticker: CDW
+    name: "CDW Corporation"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Technology Hardware & Equipment"
+    industry_group_etf:
+    gics_sub_industry: "Technology Distributors"
+    peers: []
+  - ticker: COR
+    name: "Cencora"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Distributors"
+    peers: [CAH, HSIC, MCK]
+  - ticker: CNC
+    name: "Centene Corporation"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Managed Health Care"
+    peers: [ELV, HUM, UNH]
+  - ticker: CNP
+    name: "CenterPoint Energy"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Multi-Utilities"
+    peers: [AEE, CMS, D, DTE, ED, NEE, NI, PCG, PNW, SRE, XEL]
+  - ticker: CF
+    name: "CF Industries"
+    gics_sector: "Materials"
+    sector_etf: XLB
+    gics_industry_group: "Materials"
+    industry_group_etf:
+    gics_sub_industry: "Fertilizers & Agricultural Chemicals"
+    peers: [CTVA, MOS]
+  - ticker: CRL
+    name: "Charles River Laboratories"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Pharmaceuticals, Biotechnology & Life Sciences"
+    industry_group_etf:
+    gics_sub_industry: "Life Sciences Tools & Services"
+    peers: [A, DHR, IQV, MTD, TECH, TMO, WAT]
+  - ticker: SCHW
+    name: "Charles Schwab Corporation"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Investment Banking & Brokerage"
+    peers: [GS, HOOD, IBKR, MS, RJF]
+  - ticker: CHTR
+    name: "Charter Communications"
+    gics_sector: "Communication Services"
+    sector_etf: XLC
+    gics_industry_group: "Media & Entertainment"
+    industry_group_etf:
+    gics_sub_industry: "Cable & Satellite"
+    peers: [CMCSA]
+  - ticker: CVX
+    name: "Chevron Corporation"
+    gics_sector: "Energy"
+    sector_etf: XLE
+    gics_industry_group: "Energy"
+    industry_group_etf:
+    gics_sub_industry: "Integrated Oil & Gas"
+    peers: [XOM]
+  - ticker: CMG
+    name: "Chipotle Mexican Grill"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Services"
+    industry_group_etf:
+    gics_sub_industry: "Restaurants"
+    peers: [DPZ, DRI, MCD, SBUX, YUM]
+  - ticker: CB
+    name: "Chubb Limited"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Insurance"
+    industry_group_etf: KIE
+    gics_sub_industry: "Property & Casualty Insurance"
+    peers: [ACGL, ALL, CINF, HIG, PGR, TRV, WRB]
+  - ticker: CHD
+    name: "Church & Dwight"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Household & Personal Products"
+    industry_group_etf:
+    gics_sub_industry: "Household Products"
+    peers: [CL, CLX, KMB]
+  - ticker: CIEN
+    name: "Ciena"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Technology Hardware & Equipment"
+    industry_group_etf:
+    gics_sub_industry: "Communications Equipment"
+    peers: [ANET, CSCO, FFIV, LITE, MSI]
+  - ticker: CI
+    name: "Cigna"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Services"
+    peers: [CVS, DGX, DVA, LH]
+  - ticker: CINF
+    name: "Cincinnati Financial"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Insurance"
+    industry_group_etf: KIE
+    gics_sub_industry: "Property & Casualty Insurance"
+    peers: [ACGL, ALL, CB, HIG, PGR, TRV, WRB]
+  - ticker: CTAS
+    name: "Cintas"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Commercial & Professional Services"
+    industry_group_etf:
+    gics_sub_industry: "Diversified Support Services"
+    peers: [CPRT, LDOS]
+  - ticker: CSCO
+    name: "Cisco"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Technology Hardware & Equipment"
+    industry_group_etf:
+    gics_sub_industry: "Communications Equipment"
+    peers: [ANET, CIEN, FFIV, LITE, MSI]
+  - ticker: C
+    name: "Citigroup"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Banks"
+    industry_group_etf: KBE
+    gics_sub_industry: "Diversified Banks"
+    peers: [BAC, JPM, PNC, TFC, USB, WFC]
+  - ticker: CFG
+    name: "Citizens Financial Group"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Banks"
+    industry_group_etf: KBE
+    gics_sub_industry: "Regional Banks"
+    peers: [FITB, HBAN, KEY, MTB, RF]
+  - ticker: CLX
+    name: "Clorox"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Household & Personal Products"
+    industry_group_etf:
+    gics_sub_industry: "Household Products"
+    peers: [CHD, CL, KMB]
+  - ticker: CME
+    name: "CME Group"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Financial Exchanges & Data"
+    peers: [CBOE, COIN, FDS, ICE, MCO, MSCI, NDAQ, SPGI]
+  - ticker: CMS
+    name: "CMS Energy"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Multi-Utilities"
+    peers: [AEE, CNP, D, DTE, ED, NEE, NI, PCG, PNW, SRE, XEL]
+  - ticker: KO
+    name: "Coca-Cola Company (The)"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Food, Beverage & Tobacco"
+    industry_group_etf: PBJ
+    gics_sub_industry: "Soft Drinks & Non-alcoholic Beverages"
+    peers: [KDP, MNST, PEP]
+  - ticker: CTSH
+    name: "Cognizant"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "IT Consulting & Other Services"
+    peers: [ACN, EPAM, IBM, IT]
+  - ticker: COHR
+    name: "Coherent Corp."
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Technology Hardware & Equipment"
+    industry_group_etf:
+    gics_sub_industry: "Electronic Components"
+    peers: [APH, GLW]
+  - ticker: COIN
+    name: "Coinbase"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Financial Exchanges & Data"
+    peers: [CBOE, CME, FDS, ICE, MCO, MSCI, NDAQ, SPGI]
+  - ticker: CL
+    name: "Colgate-Palmolive"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Household & Personal Products"
+    industry_group_etf:
+    gics_sub_industry: "Household Products"
+    peers: [CHD, CLX, KMB]
+  - ticker: CMCSA
+    name: "Comcast"
+    gics_sector: "Communication Services"
+    sector_etf: XLC
+    gics_industry_group: "Media & Entertainment"
+    industry_group_etf:
+    gics_sub_industry: "Cable & Satellite"
+    peers: [CHTR]
+  - ticker: FIX
+    name: "Comfort Systems USA"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Construction & Engineering"
+    peers: [EME, J, PWR]
+  - ticker: CAG
+    name: "Conagra Brands"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Food, Beverage & Tobacco"
+    industry_group_etf: PBJ
+    gics_sub_industry: "Packaged Foods & Meats"
+    peers: [CPB, GIS, HRL, HSY, KHC, MDLZ, MKC, SJM, TSN]
+  - ticker: COP
+    name: "ConocoPhillips"
+    gics_sector: "Energy"
+    sector_etf: XLE
+    gics_industry_group: "Energy"
+    industry_group_etf:
+    gics_sub_industry: "Oil & Gas Exploration & Production"
+    peers: [APA, DVN, EOG, EQT, EXE, FANG, OXY, TPL]
+  - ticker: ED
+    name: "Consolidated Edison"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Multi-Utilities"
+    peers: [AEE, CMS, CNP, D, DTE, NEE, NI, PCG, PNW, SRE, XEL]
+  - ticker: STZ
+    name: "Constellation Brands"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Food, Beverage & Tobacco"
+    industry_group_etf: PBJ
+    gics_sub_industry: "Distillers & Vintners"
+    peers: [BF.B]
+  - ticker: CEG
+    name: "Constellation Energy"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Electric Utilities"
+    peers: [AEP, DUK, EIX, ES, ETR, EVRG, EXC, FE, LNT, PEG, PPL, SO, VST, WEC]
+  - ticker: COO
+    name: "Cooper Companies (The)"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Supplies"
+    peers: [ALGN, WST]
+  - ticker: CPRT
+    name: "Copart"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Commercial & Professional Services"
+    industry_group_etf:
+    gics_sub_industry: "Diversified Support Services"
+    peers: [CTAS, LDOS]
+  - ticker: GLW
+    name: "Corning Inc."
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Technology Hardware & Equipment"
+    industry_group_etf:
+    gics_sub_industry: "Electronic Components"
+    peers: [APH, COHR]
+  - ticker: CPAY
+    name: "Corpay"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Transaction & Payment Processing Services"
+    peers: [FIS, FISV, GPN, JKHY, MA, PYPL, V, XYZ]
+  - ticker: CTVA
+    name: "Corteva"
+    gics_sector: "Materials"
+    sector_etf: XLB
+    gics_industry_group: "Materials"
+    industry_group_etf:
+    gics_sub_industry: "Fertilizers & Agricultural Chemicals"
+    peers: [CF, MOS]
+  - ticker: CSGP
+    name: "CoStar Group"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Real Estate Management & Development"
+    industry_group_etf:
+    gics_sub_industry: "Real Estate Services"
+    peers: [CBRE]
+  - ticker: COST
+    name: "Costco"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Consumer Staples Distribution & Retail"
+    industry_group_etf:
+    gics_sub_industry: "Consumer Staples Merchandise Retail"
+    peers: [DG, DLTR, TGT, WMT]
+  - ticker: CRH
+    name: "CRH plc"
+    gics_sector: "Materials"
+    sector_etf: XLB
+    gics_industry_group: "Materials"
+    industry_group_etf:
+    gics_sub_industry: "Construction Materials"
+    peers: [MLM, VMC]
+  - ticker: CRWD
+    name: "CrowdStrike"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "Systems Software"
+    peers: [FTNT, GEN, MSFT, NOW, PANW]
+  - ticker: CCI
+    name: "Crown Castle"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Telecom Tower REITs"
+    peers: [AMT, SBAC]
+  - ticker: CSX
+    name: "CSX Corporation"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Transportation"
+    industry_group_etf: IYT
+    gics_sub_industry: "Rail Transportation"
+    peers: [NSC, UNP]
+  - ticker: CMI
+    name: "Cummins"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Construction Machinery & Heavy Transportation Equipment"
+    peers: [CAT, PCAR, WAB]
+  - ticker: CVS
+    name: "CVS Health"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Services"
+    peers: [CI, DGX, DVA, LH]
+  - ticker: DHR
+    name: "Danaher Corporation"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Pharmaceuticals, Biotechnology & Life Sciences"
+    industry_group_etf:
+    gics_sub_industry: "Life Sciences Tools & Services"
+    peers: [A, CRL, IQV, MTD, TECH, TMO, WAT]
+  - ticker: DRI
+    name: "Darden Restaurants"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Services"
+    industry_group_etf:
+    gics_sub_industry: "Restaurants"
+    peers: [CMG, DPZ, MCD, SBUX, YUM]
+  - ticker: DDOG
+    name: "Datadog"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "Application Software"
+    peers: [ADBE, ADSK, APP, CDNS, CRM, FICO, INTU, ORCL, PLTR, PTC, SNPS, TRMB, TYL, WDAY]
+  - ticker: DVA
+    name: "DaVita"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Services"
+    peers: [CI, CVS, DGX, LH]
+  - ticker: DECK
+    name: "Deckers Brands"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Durables & Apparel"
+    industry_group_etf:
+    gics_sub_industry: "Footwear"
+    peers: []
+  - ticker: DE
+    name: "Deere & Company"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Agricultural & Farm Machinery"
+    peers: []
+  - ticker: DELL
+    name: "Dell Technologies"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Technology Hardware & Equipment"
+    industry_group_etf:
+    gics_sub_industry: "Technology Hardware, Storage & Peripherals"
+    peers: [AAPL, HPE, HPQ, NTAP, SMCI, SNDK, STX, WDC]
+  - ticker: DAL
+    name: "Delta Air Lines"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Transportation"
+    industry_group_etf: IYT
+    gics_sub_industry: "Passenger Airlines"
+    peers: [LUV, UAL]
+  - ticker: DVN
+    name: "Devon Energy"
+    gics_sector: "Energy"
+    sector_etf: XLE
+    gics_industry_group: "Energy"
+    industry_group_etf:
+    gics_sub_industry: "Oil & Gas Exploration & Production"
+    peers: [APA, COP, EOG, EQT, EXE, FANG, OXY, TPL]
+  - ticker: DXCM
+    name: "Dexcom"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Equipment"
+    peers: [ABT, BAX, BDX, BSX, EW, GEHC, IDXX, ISRG, MDT, PODD, RMD, RVTY, STE, SYK, ZBH]
+  - ticker: FANG
+    name: "Diamondback Energy"
+    gics_sector: "Energy"
+    sector_etf: XLE
+    gics_industry_group: "Energy"
+    industry_group_etf:
+    gics_sub_industry: "Oil & Gas Exploration & Production"
+    peers: [APA, COP, DVN, EOG, EQT, EXE, OXY, TPL]
+  - ticker: DLR
+    name: "Digital Realty"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Data Center REITs"
+    peers: [EQIX]
+  - ticker: DG
+    name: "Dollar General"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Consumer Staples Distribution & Retail"
+    industry_group_etf:
+    gics_sub_industry: "Consumer Staples Merchandise Retail"
+    peers: [COST, DLTR, TGT, WMT]
+  - ticker: DLTR
+    name: "Dollar Tree"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Consumer Staples Distribution & Retail"
+    industry_group_etf:
+    gics_sub_industry: "Consumer Staples Merchandise Retail"
+    peers: [COST, DG, TGT, WMT]
+  - ticker: D
+    name: "Dominion Energy"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Multi-Utilities"
+    peers: [AEE, CMS, CNP, DTE, ED, NEE, NI, PCG, PNW, SRE, XEL]
+  - ticker: DPZ
+    name: "Domino's"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Services"
+    industry_group_etf:
+    gics_sub_industry: "Restaurants"
+    peers: [CMG, DRI, MCD, SBUX, YUM]
+  - ticker: DASH
+    name: "DoorDash"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Services"
+    industry_group_etf:
+    gics_sub_industry: "Specialized Consumer Services"
+    peers: []
+  - ticker: DOV
+    name: "Dover Corporation"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Industrial Machinery & Supplies & Components"
+    peers: [FTV, GWW, HUBB, IEX, IR, ITW, NDSN, OTIS, PH, PNR, SNA, SWK, XYL]
+  - ticker: DOW
+    name: "Dow Inc."
+    gics_sector: "Materials"
+    sector_etf: XLB
+    gics_industry_group: "Materials"
+    industry_group_etf:
+    gics_sub_industry: "Commodity Chemicals"
+    peers: []
+  - ticker: DHI
+    name: "D. R. Horton"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Durables & Apparel"
+    industry_group_etf:
+    gics_sub_industry: "Homebuilding"
+    peers: [LEN, NVR, PHM]
+  - ticker: DTE
+    name: "DTE Energy"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Multi-Utilities"
+    peers: [AEE, CMS, CNP, D, ED, NEE, NI, PCG, PNW, SRE, XEL]
+  - ticker: DUK
+    name: "Duke Energy"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Electric Utilities"
+    peers: [AEP, CEG, EIX, ES, ETR, EVRG, EXC, FE, LNT, PEG, PPL, SO, VST, WEC]
+  - ticker: DD
+    name: "DuPont"
+    gics_sector: "Materials"
+    sector_etf: XLB
+    gics_industry_group: "Materials"
+    industry_group_etf:
+    gics_sub_industry: "Specialty Chemicals"
+    peers: [ALB, ECL, IFF, LYB, PPG, SHW]
+  - ticker: ETN
+    name: "Eaton Corporation"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Electrical Components & Equipment"
+    peers: [AME, EMR, GNRC, ROK, VRT]
+  - ticker: EBAY
+    name: "eBay Inc."
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Discretionary Distribution & Retail"
+    industry_group_etf: XRT
+    gics_sub_industry: "Broadline Retail"
+    peers: [AMZN]
+  - ticker: SATS
+    name: "EchoStar"
+    gics_sector: "Communication Services"
+    sector_etf: XLC
+    gics_industry_group: "Telecommunication Services"
+    industry_group_etf:
+    gics_sub_industry: "Wireless Telecommunication Services"
+    peers: [TMUS]
+  - ticker: ECL
+    name: "Ecolab"
+    gics_sector: "Materials"
+    sector_etf: XLB
+    gics_industry_group: "Materials"
+    industry_group_etf:
+    gics_sub_industry: "Specialty Chemicals"
+    peers: [ALB, DD, IFF, LYB, PPG, SHW]
+  - ticker: EIX
+    name: "Edison International"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Electric Utilities"
+    peers: [AEP, CEG, DUK, ES, ETR, EVRG, EXC, FE, LNT, PEG, PPL, SO, VST, WEC]
+  - ticker: EW
+    name: "Edwards Lifesciences"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Equipment"
+    peers: [ABT, BAX, BDX, BSX, DXCM, GEHC, IDXX, ISRG, MDT, PODD, RMD, RVTY, STE, SYK, ZBH]
+  - ticker: EA
+    name: "Electronic Arts"
+    gics_sector: "Communication Services"
+    sector_etf: XLC
+    gics_industry_group: "Media & Entertainment"
+    industry_group_etf:
+    gics_sub_industry: "Interactive Home Entertainment"
+    peers: [TTWO]
+  - ticker: ELV
+    name: "Elevance Health"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Managed Health Care"
+    peers: [CNC, HUM, UNH]
+  - ticker: EME
+    name: "Emcor"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Construction & Engineering"
+    peers: [FIX, J, PWR]
+  - ticker: EMR
+    name: "Emerson Electric"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Electrical Components & Equipment"
+    peers: [AME, ETN, GNRC, ROK, VRT]
+  - ticker: ETR
+    name: "Entergy"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Electric Utilities"
+    peers: [AEP, CEG, DUK, EIX, ES, EVRG, EXC, FE, LNT, PEG, PPL, SO, VST, WEC]
+  - ticker: EOG
+    name: "EOG Resources"
+    gics_sector: "Energy"
+    sector_etf: XLE
+    gics_industry_group: "Energy"
+    industry_group_etf:
+    gics_sub_industry: "Oil & Gas Exploration & Production"
+    peers: [APA, COP, DVN, EQT, EXE, FANG, OXY, TPL]
+  - ticker: EPAM
+    name: "EPAM Systems"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "IT Consulting & Other Services"
+    peers: [ACN, CTSH, IBM, IT]
+  - ticker: EQT
+    name: "EQT Corporation"
+    gics_sector: "Energy"
+    sector_etf: XLE
+    gics_industry_group: "Energy"
+    industry_group_etf:
+    gics_sub_industry: "Oil & Gas Exploration & Production"
+    peers: [APA, COP, DVN, EOG, EXE, FANG, OXY, TPL]
+  - ticker: EFX
+    name: "Equifax"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Commercial & Professional Services"
+    industry_group_etf:
+    gics_sub_industry: "Research & Consulting Services"
+    peers: [VRSK]
+  - ticker: EQIX
+    name: "Equinix"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Data Center REITs"
+    peers: [DLR]
+  - ticker: EQR
+    name: "Equity Residential"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Multi-Family Residential REITs"
+    peers: [AVB, CPT, ESS, MAA, UDR]
+  - ticker: ERIE
+    name: "Erie Indemnity"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Insurance"
+    industry_group_etf: KIE
+    gics_sub_industry: "Insurance Brokers"
+    peers: [AJG, AON, BRO, MRSH, WTW]
+  - ticker: ESS
+    name: "Essex Property Trust"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Multi-Family Residential REITs"
+    peers: [AVB, CPT, EQR, MAA, UDR]
+  - ticker: EL
+    name: "Estée Lauder Companies (The)"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Household & Personal Products"
+    industry_group_etf:
+    gics_sub_industry: "Personal Care Products"
+    peers: [KVUE, PG]
+  - ticker: EG
+    name: "Everest Group"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Insurance"
+    industry_group_etf: KIE
+    gics_sub_industry: "Reinsurance"
+    peers: []
+  - ticker: EVRG
+    name: "Evergy"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Electric Utilities"
+    peers: [AEP, CEG, DUK, EIX, ES, ETR, EXC, FE, LNT, PEG, PPL, SO, VST, WEC]
+  - ticker: ES
+    name: "Eversource Energy"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Electric Utilities"
+    peers: [AEP, CEG, DUK, EIX, ETR, EVRG, EXC, FE, LNT, PEG, PPL, SO, VST, WEC]
+  - ticker: EXC
+    name: "Exelon"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Electric Utilities"
+    peers: [AEP, CEG, DUK, EIX, ES, ETR, EVRG, FE, LNT, PEG, PPL, SO, VST, WEC]
+  - ticker: EXE
+    name: "Expand Energy"
+    gics_sector: "Energy"
+    sector_etf: XLE
+    gics_industry_group: "Energy"
+    industry_group_etf:
+    gics_sub_industry: "Oil & Gas Exploration & Production"
+    peers: [APA, COP, DVN, EOG, EQT, FANG, OXY, TPL]
+  - ticker: EXPE
+    name: "Expedia Group"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Services"
+    industry_group_etf:
+    gics_sub_industry: "Hotels, Resorts & Cruise Lines"
+    peers: [ABNB, BKNG, CCL, HLT, MAR, NCLH, RCL]
+  - ticker: EXPD
+    name: "Expeditors International"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Transportation"
+    industry_group_etf: IYT
+    gics_sub_industry: "Air Freight & Logistics"
+    peers: [CHRW, FDX, UPS]
+  - ticker: EXR
+    name: "Extra Space Storage"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Self-Storage REITs"
+    peers: [PSA]
+  - ticker: XOM
+    name: "ExxonMobil"
+    gics_sector: "Energy"
+    sector_etf: XLE
+    gics_industry_group: "Energy"
+    industry_group_etf:
+    gics_sub_industry: "Integrated Oil & Gas"
+    peers: [CVX]
+  - ticker: FFIV
+    name: "F5, Inc."
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Technology Hardware & Equipment"
+    industry_group_etf:
+    gics_sub_industry: "Communications Equipment"
+    peers: [ANET, CIEN, CSCO, LITE, MSI]
+  - ticker: FDS
+    name: "FactSet"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Financial Exchanges & Data"
+    peers: [CBOE, CME, COIN, ICE, MCO, MSCI, NDAQ, SPGI]
+  - ticker: FICO
+    name: "Fair Isaac"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "Application Software"
+    peers: [ADBE, ADSK, APP, CDNS, CRM, DDOG, INTU, ORCL, PLTR, PTC, SNPS, TRMB, TYL, WDAY]
+  - ticker: FAST
+    name: "Fastenal"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Trading Companies & Distributors"
+    peers: [URI]
+  - ticker: FRT
+    name: "Federal Realty Investment Trust"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Retail REITs"
+    peers: [KIM, O, REG, SPG]
+  - ticker: FDX
+    name: "FedEx"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Transportation"
+    industry_group_etf: IYT
+    gics_sub_industry: "Air Freight & Logistics"
+    peers: [CHRW, EXPD, UPS]
+  - ticker: FIS
+    name: "Fidelity National Information Services"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Transaction & Payment Processing Services"
+    peers: [CPAY, FISV, GPN, JKHY, MA, PYPL, V, XYZ]
+  - ticker: FITB
+    name: "Fifth Third Bancorp"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Banks"
+    industry_group_etf: KBE
+    gics_sub_industry: "Regional Banks"
+    peers: [CFG, HBAN, KEY, MTB, RF]
+  - ticker: FSLR
+    name: "First Solar"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Semiconductors & Semiconductor Equipment"
+    industry_group_etf: SMH
+    gics_sub_industry: "Semiconductors"
+    peers: [ADI, AMD, AVGO, INTC, MCHP, MPWR, MU, NVDA, NXPI, "ON", QCOM, SWKS, TXN]
+  - ticker: FE
+    name: "FirstEnergy"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Electric Utilities"
+    peers: [AEP, CEG, DUK, EIX, ES, ETR, EVRG, EXC, LNT, PEG, PPL, SO, VST, WEC]
+  - ticker: FISV
+    name: "Fiserv"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Transaction & Payment Processing Services"
+    peers: [CPAY, FIS, GPN, JKHY, MA, PYPL, V, XYZ]
+  - ticker: F
+    name: "Ford Motor Company"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Automobiles & Components"
+    industry_group_etf:
+    gics_sub_industry: "Automobile Manufacturers"
+    peers: [GM, TSLA]
+  - ticker: FTNT
+    name: "Fortinet"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "Systems Software"
+    peers: [CRWD, GEN, MSFT, NOW, PANW]
+  - ticker: FTV
+    name: "Fortive"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Industrial Machinery & Supplies & Components"
+    peers: [DOV, GWW, HUBB, IEX, IR, ITW, NDSN, OTIS, PH, PNR, SNA, SWK, XYL]
+  - ticker: FOXA
+    name: "Fox Corporation (Class A)"
+    gics_sector: "Communication Services"
+    sector_etf: XLC
+    gics_industry_group: "Media & Entertainment"
+    industry_group_etf:
+    gics_sub_industry: "Broadcasting"
+    peers: [FOX, WBD]
+  - ticker: FOX
+    name: "Fox Corporation (Class B)"
+    gics_sector: "Communication Services"
+    sector_etf: XLC
+    gics_industry_group: "Media & Entertainment"
+    industry_group_etf:
+    gics_sub_industry: "Broadcasting"
+    peers: [FOXA, WBD]
+  - ticker: BEN
+    name: "Franklin Resources"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Asset Management & Custody Banks"
+    peers: [AMP, APO, ARES, BLK, BNY, BX, IVZ, KKR, NTRS, STT, TROW]
+  - ticker: FCX
+    name: "Freeport-McMoRan"
+    gics_sector: "Materials"
+    sector_etf: XLB
+    gics_industry_group: "Materials"
+    industry_group_etf:
+    gics_sub_industry: "Copper"
+    peers: []
+  - ticker: GRMN
+    name: "Garmin"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Durables & Apparel"
+    industry_group_etf:
+    gics_sub_industry: "Consumer Electronics"
+    peers: []
+  - ticker: IT
+    name: "Gartner"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "IT Consulting & Other Services"
+    peers: [ACN, CTSH, EPAM, IBM]
+  - ticker: GE
+    name: "GE Aerospace"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Aerospace & Defense"
+    peers: [AXON, BA, GD, HII, HWM, LHX, LMT, NOC, RTX, TDG, TXT]
+  - ticker: GEHC
+    name: "GE HealthCare"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Equipment"
+    peers: [ABT, BAX, BDX, BSX, DXCM, EW, IDXX, ISRG, MDT, PODD, RMD, RVTY, STE, SYK, ZBH]
+  - ticker: GEV
+    name: "GE Vernova"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Heavy Electrical Equipment"
+    peers: []
+  - ticker: GEN
+    name: "Gen Digital"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "Systems Software"
+    peers: [CRWD, FTNT, MSFT, NOW, PANW]
+  - ticker: GNRC
+    name: "Generac"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Electrical Components & Equipment"
+    peers: [AME, EMR, ETN, ROK, VRT]
+  - ticker: GD
+    name: "General Dynamics"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Aerospace & Defense"
+    peers: [AXON, BA, GE, HII, HWM, LHX, LMT, NOC, RTX, TDG, TXT]
+  - ticker: GIS
+    name: "General Mills"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Food, Beverage & Tobacco"
+    industry_group_etf: PBJ
+    gics_sub_industry: "Packaged Foods & Meats"
+    peers: [CAG, CPB, HRL, HSY, KHC, MDLZ, MKC, SJM, TSN]
+  - ticker: GM
+    name: "General Motors"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Automobiles & Components"
+    industry_group_etf:
+    gics_sub_industry: "Automobile Manufacturers"
+    peers: [F, TSLA]
+  - ticker: GPC
+    name: "Genuine Parts Company"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Discretionary Distribution & Retail"
+    industry_group_etf: XRT
+    gics_sub_industry: "Distributors"
+    peers: [POOL]
+  - ticker: GILD
+    name: "Gilead Sciences"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Pharmaceuticals, Biotechnology & Life Sciences"
+    industry_group_etf:
+    gics_sub_industry: "Biotechnology"
+    peers: [ABBV, AMGN, BIIB, INCY, MRNA, REGN, VRTX]
+  - ticker: GPN
+    name: "Global Payments"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Transaction & Payment Processing Services"
+    peers: [CPAY, FIS, FISV, JKHY, MA, PYPL, V, XYZ]
+  - ticker: GL
+    name: "Globe Life"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Insurance"
+    industry_group_etf: KIE
+    gics_sub_industry: "Life & Health Insurance"
+    peers: [AFL, MET, PFG, PRU]
+  - ticker: GDDY
+    name: "GoDaddy"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "Internet Services & Infrastructure"
+    peers: [AKAM, VRSN]
+  - ticker: GS
+    name: "Goldman Sachs"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Investment Banking & Brokerage"
+    peers: [HOOD, IBKR, MS, RJF, SCHW]
+  - ticker: HAL
+    name: "Halliburton"
+    gics_sector: "Energy"
+    sector_etf: XLE
+    gics_industry_group: "Energy"
+    industry_group_etf:
+    gics_sub_industry: "Oil & Gas Equipment & Services"
+    peers: [BKR, SLB]
+  - ticker: HIG
+    name: "Hartford (The)"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Insurance"
+    industry_group_etf: KIE
+    gics_sub_industry: "Property & Casualty Insurance"
+    peers: [ACGL, ALL, CB, CINF, PGR, TRV, WRB]
+  - ticker: HAS
+    name: "Hasbro"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Durables & Apparel"
+    industry_group_etf:
+    gics_sub_industry: "Leisure Products"
+    peers: []
+  - ticker: HCA
+    name: "HCA Healthcare"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Facilities"
+    peers: [UHS]
+  - ticker: DOC
+    name: "Healthpeak Properties"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Health Care REITs"
+    peers: [VTR, WELL]
+  - ticker: HSIC
+    name: "Henry Schein"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Distributors"
+    peers: [CAH, COR, MCK]
+  - ticker: HSY
+    name: "Hershey Company (The)"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Food, Beverage & Tobacco"
+    industry_group_etf: PBJ
+    gics_sub_industry: "Packaged Foods & Meats"
+    peers: [CAG, CPB, GIS, HRL, KHC, MDLZ, MKC, SJM, TSN]
+  - ticker: HPE
+    name: "Hewlett Packard Enterprise"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Technology Hardware & Equipment"
+    industry_group_etf:
+    gics_sub_industry: "Technology Hardware, Storage & Peripherals"
+    peers: [AAPL, DELL, HPQ, NTAP, SMCI, SNDK, STX, WDC]
+  - ticker: HLT
+    name: "Hilton Worldwide"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Services"
+    industry_group_etf:
+    gics_sub_industry: "Hotels, Resorts & Cruise Lines"
+    peers: [ABNB, BKNG, CCL, EXPE, MAR, NCLH, RCL]
+  - ticker: HD
+    name: "Home Depot (The)"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Discretionary Distribution & Retail"
+    industry_group_etf: XRT
+    gics_sub_industry: "Home Improvement Retail"
+    peers: [LOW]
+  - ticker: HON
+    name: "Honeywell"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Industrial Conglomerates"
+    peers: [MMM]
+  - ticker: HRL
+    name: "Hormel Foods"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Food, Beverage & Tobacco"
+    industry_group_etf: PBJ
+    gics_sub_industry: "Packaged Foods & Meats"
+    peers: [CAG, CPB, GIS, HSY, KHC, MDLZ, MKC, SJM, TSN]
+  - ticker: HST
+    name: "Host Hotels & Resorts"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Hotel & Resort REITs"
+    peers: [VICI]
+  - ticker: HWM
+    name: "Howmet Aerospace"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Aerospace & Defense"
+    peers: [AXON, BA, GD, GE, HII, LHX, LMT, NOC, RTX, TDG, TXT]
+  - ticker: HPQ
+    name: "HP Inc."
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Technology Hardware & Equipment"
+    industry_group_etf:
+    gics_sub_industry: "Technology Hardware, Storage & Peripherals"
+    peers: [AAPL, DELL, HPE, NTAP, SMCI, SNDK, STX, WDC]
+  - ticker: HUBB
+    name: "Hubbell Incorporated"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Industrial Machinery & Supplies & Components"
+    peers: [DOV, FTV, GWW, IEX, IR, ITW, NDSN, OTIS, PH, PNR, SNA, SWK, XYL]
+  - ticker: HUM
+    name: "Humana"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Managed Health Care"
+    peers: [CNC, ELV, UNH]
+  - ticker: HBAN
+    name: "Huntington Bancshares"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Banks"
+    industry_group_etf: KBE
+    gics_sub_industry: "Regional Banks"
+    peers: [CFG, FITB, KEY, MTB, RF]
+  - ticker: HII
+    name: "Huntington Ingalls Industries"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Aerospace & Defense"
+    peers: [AXON, BA, GD, GE, HWM, LHX, LMT, NOC, RTX, TDG, TXT]
+  - ticker: IBM
+    name: "IBM"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "IT Consulting & Other Services"
+    peers: [ACN, CTSH, EPAM, IT]
+  - ticker: IEX
+    name: "IDEX Corporation"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Industrial Machinery & Supplies & Components"
+    peers: [DOV, FTV, GWW, HUBB, IR, ITW, NDSN, OTIS, PH, PNR, SNA, SWK, XYL]
+  - ticker: IDXX
+    name: "Idexx Laboratories"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Equipment"
+    peers: [ABT, BAX, BDX, BSX, DXCM, EW, GEHC, ISRG, MDT, PODD, RMD, RVTY, STE, SYK, ZBH]
+  - ticker: ITW
+    name: "Illinois Tool Works"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Industrial Machinery & Supplies & Components"
+    peers: [DOV, FTV, GWW, HUBB, IEX, IR, NDSN, OTIS, PH, PNR, SNA, SWK, XYL]
+  - ticker: INCY
+    name: "Incyte"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Pharmaceuticals, Biotechnology & Life Sciences"
+    industry_group_etf:
+    gics_sub_industry: "Biotechnology"
+    peers: [ABBV, AMGN, BIIB, GILD, MRNA, REGN, VRTX]
+  - ticker: IR
+    name: "Ingersoll Rand"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Industrial Machinery & Supplies & Components"
+    peers: [DOV, FTV, GWW, HUBB, IEX, ITW, NDSN, OTIS, PH, PNR, SNA, SWK, XYL]
+  - ticker: PODD
+    name: "Insulet Corporation"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Equipment"
+    peers: [ABT, BAX, BDX, BSX, DXCM, EW, GEHC, IDXX, ISRG, MDT, RMD, RVTY, STE, SYK, ZBH]
+  - ticker: INTC
+    name: "Intel"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Semiconductors & Semiconductor Equipment"
+    industry_group_etf: SMH
+    gics_sub_industry: "Semiconductors"
+    peers: [ADI, AMD, AVGO, FSLR, MCHP, MPWR, MU, NVDA, NXPI, "ON", QCOM, SWKS, TXN]
+  - ticker: IBKR
+    name: "Interactive Brokers"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Investment Banking & Brokerage"
+    peers: [GS, HOOD, MS, RJF, SCHW]
+  - ticker: ICE
+    name: "Intercontinental Exchange"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Financial Exchanges & Data"
+    peers: [CBOE, CME, COIN, FDS, MCO, MSCI, NDAQ, SPGI]
+  - ticker: IFF
+    name: "International Flavors & Fragrances"
+    gics_sector: "Materials"
+    sector_etf: XLB
+    gics_industry_group: "Materials"
+    industry_group_etf:
+    gics_sub_industry: "Specialty Chemicals"
+    peers: [ALB, DD, ECL, LYB, PPG, SHW]
+  - ticker: IP
+    name: "International Paper"
+    gics_sector: "Materials"
+    sector_etf: XLB
+    gics_industry_group: "Materials"
+    industry_group_etf:
+    gics_sub_industry: "Paper & Plastic Packaging Products & Materials"
+    peers: [AMCR, AVY, PKG, SW]
+  - ticker: INTU
+    name: "Intuit"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "Application Software"
+    peers: [ADBE, ADSK, APP, CDNS, CRM, DDOG, FICO, ORCL, PLTR, PTC, SNPS, TRMB, TYL, WDAY]
+  - ticker: ISRG
+    name: "Intuitive Surgical"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Equipment"
+    peers: [ABT, BAX, BDX, BSX, DXCM, EW, GEHC, IDXX, MDT, PODD, RMD, RVTY, STE, SYK, ZBH]
+  - ticker: IVZ
+    name: "Invesco"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Asset Management & Custody Banks"
+    peers: [AMP, APO, ARES, BEN, BLK, BNY, BX, KKR, NTRS, STT, TROW]
+  - ticker: INVH
+    name: "Invitation Homes"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Single-Family Residential REITs"
+    peers: []
+  - ticker: IQV
+    name: "IQVIA"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Pharmaceuticals, Biotechnology & Life Sciences"
+    industry_group_etf:
+    gics_sub_industry: "Life Sciences Tools & Services"
+    peers: [A, CRL, DHR, MTD, TECH, TMO, WAT]
+  - ticker: IRM
+    name: "Iron Mountain"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Other Specialized REITs"
+    peers: []
+  - ticker: JBHT
+    name: "J.B. Hunt"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Transportation"
+    industry_group_etf: IYT
+    gics_sub_industry: "Cargo Ground Transportation"
+    peers: [ODFL]
+  - ticker: JBL
+    name: "Jabil"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Technology Hardware & Equipment"
+    industry_group_etf:
+    gics_sub_industry: "Electronic Manufacturing Services"
+    peers: [TEL]
+  - ticker: JKHY
+    name: "Jack Henry & Associates"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Transaction & Payment Processing Services"
+    peers: [CPAY, FIS, FISV, GPN, MA, PYPL, V, XYZ]
+  - ticker: J
+    name: "Jacobs Solutions"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Construction & Engineering"
+    peers: [EME, FIX, PWR]
+  - ticker: JNJ
+    name: "Johnson & Johnson"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Pharmaceuticals, Biotechnology & Life Sciences"
+    industry_group_etf:
+    gics_sub_industry: "Pharmaceuticals"
+    peers: [BMY, LLY, MRK, PFE, VTRS, ZTS]
+  - ticker: JCI
+    name: "Johnson Controls"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Building Products"
+    peers: [ALLE, AOS, BLDR, CARR, LII, MAS, TT]
+  - ticker: JPM
+    name: "JPMorgan Chase"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Banks"
+    industry_group_etf: KBE
+    gics_sub_industry: "Diversified Banks"
+    peers: [BAC, C, PNC, TFC, USB, WFC]
+  - ticker: KVUE
+    name: "Kenvue"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Household & Personal Products"
+    industry_group_etf:
+    gics_sub_industry: "Personal Care Products"
+    peers: [EL, PG]
+  - ticker: KDP
+    name: "Keurig Dr Pepper"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Food, Beverage & Tobacco"
+    industry_group_etf: PBJ
+    gics_sub_industry: "Soft Drinks & Non-alcoholic Beverages"
+    peers: [KO, MNST, PEP]
+  - ticker: KEY
+    name: "KeyCorp"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Banks"
+    industry_group_etf: KBE
+    gics_sub_industry: "Regional Banks"
+    peers: [CFG, FITB, HBAN, MTB, RF]
+  - ticker: KEYS
+    name: "Keysight Technologies"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Technology Hardware & Equipment"
+    industry_group_etf:
+    gics_sub_industry: "Electronic Equipment & Instruments"
+    peers: [ROP, TDY, ZBRA]
+  - ticker: KMB
+    name: "Kimberly-Clark"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Household & Personal Products"
+    industry_group_etf:
+    gics_sub_industry: "Household Products"
+    peers: [CHD, CL, CLX]
+  - ticker: KIM
+    name: "Kimco Realty"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Retail REITs"
+    peers: [FRT, O, REG, SPG]
+  - ticker: KMI
+    name: "Kinder Morgan"
+    gics_sector: "Energy"
+    sector_etf: XLE
+    gics_industry_group: "Energy"
+    industry_group_etf:
+    gics_sub_industry: "Oil & Gas Storage & Transportation"
+    peers: [OKE, TRGP, WMB]
+  - ticker: KKR
+    name: "KKR & Co."
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Asset Management & Custody Banks"
+    peers: [AMP, APO, ARES, BEN, BLK, BNY, BX, IVZ, NTRS, STT, TROW]
+  - ticker: KLAC
+    name: "KLA Corporation"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Semiconductors & Semiconductor Equipment"
+    industry_group_etf: SMH
+    gics_sub_industry: "Semiconductor Materials & Equipment"
+    peers: [AMAT, LRCX, Q, TER]
+  - ticker: KHC
+    name: "Kraft Heinz"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Food, Beverage & Tobacco"
+    industry_group_etf: PBJ
+    gics_sub_industry: "Packaged Foods & Meats"
+    peers: [CAG, CPB, GIS, HRL, HSY, MDLZ, MKC, SJM, TSN]
+  - ticker: KR
+    name: "Kroger"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Consumer Staples Distribution & Retail"
+    industry_group_etf:
+    gics_sub_industry: "Food Retail"
+    peers: [CASY]
+  - ticker: LHX
+    name: "L3Harris"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Aerospace & Defense"
+    peers: [AXON, BA, GD, GE, HII, HWM, LMT, NOC, RTX, TDG, TXT]
+  - ticker: LH
+    name: "Labcorp"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Services"
+    peers: [CI, CVS, DGX, DVA]
+  - ticker: LRCX
+    name: "Lam Research"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Semiconductors & Semiconductor Equipment"
+    industry_group_etf: SMH
+    gics_sub_industry: "Semiconductor Materials & Equipment"
+    peers: [AMAT, KLAC, Q, TER]
+  - ticker: LVS
+    name: "Las Vegas Sands"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Services"
+    industry_group_etf:
+    gics_sub_industry: "Casinos & Gaming"
+    peers: [MGM, WYNN]
+  - ticker: LDOS
+    name: "Leidos"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Commercial & Professional Services"
+    industry_group_etf:
+    gics_sub_industry: "Diversified Support Services"
+    peers: [CPRT, CTAS]
+  - ticker: LEN
+    name: "Lennar"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Durables & Apparel"
+    industry_group_etf:
+    gics_sub_industry: "Homebuilding"
+    peers: [DHI, NVR, PHM]
+  - ticker: LII
+    name: "Lennox International"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Building Products"
+    peers: [ALLE, AOS, BLDR, CARR, JCI, MAS, TT]
+  - ticker: LLY
+    name: "Lilly (Eli)"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Pharmaceuticals, Biotechnology & Life Sciences"
+    industry_group_etf:
+    gics_sub_industry: "Pharmaceuticals"
+    peers: [BMY, JNJ, MRK, PFE, VTRS, ZTS]
+  - ticker: LIN
+    name: "Linde plc"
+    gics_sector: "Materials"
+    sector_etf: XLB
+    gics_industry_group: "Materials"
+    industry_group_etf:
+    gics_sub_industry: "Industrial Gases"
+    peers: [APD]
+  - ticker: LYV
+    name: "Live Nation Entertainment"
+    gics_sector: "Communication Services"
+    sector_etf: XLC
+    gics_industry_group: "Media & Entertainment"
+    industry_group_etf:
+    gics_sub_industry: "Movies & Entertainment"
+    peers: [DIS, NFLX, PSKY, TKO]
+  - ticker: LMT
+    name: "Lockheed Martin"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Aerospace & Defense"
+    peers: [AXON, BA, GD, GE, HII, HWM, LHX, NOC, RTX, TDG, TXT]
+  - ticker: L
+    name: "Loews Corporation"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Insurance"
+    industry_group_etf: KIE
+    gics_sub_industry: "Multi-line Insurance"
+    peers: [AIG, AIZ]
+  - ticker: LOW
+    name: "Lowe's"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Discretionary Distribution & Retail"
+    industry_group_etf: XRT
+    gics_sub_industry: "Home Improvement Retail"
+    peers: [HD]
+  - ticker: LULU
+    name: "Lululemon Athletica"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Durables & Apparel"
+    industry_group_etf:
+    gics_sub_industry: "Apparel, Accessories & Luxury Goods"
+    peers: [NKE, RL, TPR]
+  - ticker: LITE
+    name: "Lumentum"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Technology Hardware & Equipment"
+    industry_group_etf:
+    gics_sub_industry: "Communications Equipment"
+    peers: [ANET, CIEN, CSCO, FFIV, MSI]
+  - ticker: LYB
+    name: "LyondellBasell"
+    gics_sector: "Materials"
+    sector_etf: XLB
+    gics_industry_group: "Materials"
+    industry_group_etf:
+    gics_sub_industry: "Specialty Chemicals"
+    peers: [ALB, DD, ECL, IFF, PPG, SHW]
+  - ticker: MTB
+    name: "M&T Bank"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Banks"
+    industry_group_etf: KBE
+    gics_sub_industry: "Regional Banks"
+    peers: [CFG, FITB, HBAN, KEY, RF]
+  - ticker: MPC
+    name: "Marathon Petroleum"
+    gics_sector: "Energy"
+    sector_etf: XLE
+    gics_industry_group: "Energy"
+    industry_group_etf:
+    gics_sub_industry: "Oil & Gas Refining & Marketing"
+    peers: [PSX, VLO]
+  - ticker: MAR
+    name: "Marriott International"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Services"
+    industry_group_etf:
+    gics_sub_industry: "Hotels, Resorts & Cruise Lines"
+    peers: [ABNB, BKNG, CCL, EXPE, HLT, NCLH, RCL]
+  - ticker: MRSH
+    name: "Marsh McLennan"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Insurance"
+    industry_group_etf: KIE
+    gics_sub_industry: "Insurance Brokers"
+    peers: [AJG, AON, BRO, ERIE, WTW]
+  - ticker: MLM
+    name: "Martin Marietta Materials"
+    gics_sector: "Materials"
+    sector_etf: XLB
+    gics_industry_group: "Materials"
+    industry_group_etf:
+    gics_sub_industry: "Construction Materials"
+    peers: [CRH, VMC]
+  - ticker: MAS
+    name: "Masco"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Building Products"
+    peers: [ALLE, AOS, BLDR, CARR, JCI, LII, TT]
+  - ticker: MA
+    name: "Mastercard"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Transaction & Payment Processing Services"
+    peers: [CPAY, FIS, FISV, GPN, JKHY, PYPL, V, XYZ]
+  - ticker: MKC
+    name: "McCormick & Company"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Food, Beverage & Tobacco"
+    industry_group_etf: PBJ
+    gics_sub_industry: "Packaged Foods & Meats"
+    peers: [CAG, CPB, GIS, HRL, HSY, KHC, MDLZ, SJM, TSN]
+  - ticker: MCD
+    name: "McDonald's"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Services"
+    industry_group_etf:
+    gics_sub_industry: "Restaurants"
+    peers: [CMG, DPZ, DRI, SBUX, YUM]
+  - ticker: MCK
+    name: "McKesson Corporation"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Distributors"
+    peers: [CAH, COR, HSIC]
+  - ticker: MDT
+    name: "Medtronic"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Equipment"
+    peers: [ABT, BAX, BDX, BSX, DXCM, EW, GEHC, IDXX, ISRG, PODD, RMD, RVTY, STE, SYK, ZBH]
+  - ticker: MRK
+    name: "Merck & Co."
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Pharmaceuticals, Biotechnology & Life Sciences"
+    industry_group_etf:
+    gics_sub_industry: "Pharmaceuticals"
+    peers: [BMY, JNJ, LLY, PFE, VTRS, ZTS]
+  - ticker: META
+    name: "Meta Platforms"
+    gics_sector: "Communication Services"
+    sector_etf: XLC
+    gics_industry_group: "Media & Entertainment"
+    industry_group_etf:
+    gics_sub_industry: "Interactive Media & Services"
+    peers: [GOOG, GOOGL]
+  - ticker: MET
+    name: "MetLife"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Insurance"
+    industry_group_etf: KIE
+    gics_sub_industry: "Life & Health Insurance"
+    peers: [AFL, GL, PFG, PRU]
+  - ticker: MTD
+    name: "Mettler Toledo"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Pharmaceuticals, Biotechnology & Life Sciences"
+    industry_group_etf:
+    gics_sub_industry: "Life Sciences Tools & Services"
+    peers: [A, CRL, DHR, IQV, TECH, TMO, WAT]
+  - ticker: MGM
+    name: "MGM Resorts"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Services"
+    industry_group_etf:
+    gics_sub_industry: "Casinos & Gaming"
+    peers: [LVS, WYNN]
+  - ticker: MCHP
+    name: "Microchip Technology"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Semiconductors & Semiconductor Equipment"
+    industry_group_etf: SMH
+    gics_sub_industry: "Semiconductors"
+    peers: [ADI, AMD, AVGO, FSLR, INTC, MPWR, MU, NVDA, NXPI, "ON", QCOM, SWKS, TXN]
+  - ticker: MU
+    name: "Micron Technology"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Semiconductors & Semiconductor Equipment"
+    industry_group_etf: SMH
+    gics_sub_industry: "Semiconductors"
+    peers: [ADI, AMD, AVGO, FSLR, INTC, MCHP, MPWR, NVDA, NXPI, "ON", QCOM, SWKS, TXN]
+  - ticker: MSFT
+    name: "Microsoft"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "Systems Software"
+    peers: [CRWD, FTNT, GEN, NOW, PANW]
+  - ticker: MAA
+    name: "Mid-America Apartment Communities"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Multi-Family Residential REITs"
+    peers: [AVB, CPT, EQR, ESS, UDR]
+  - ticker: MRNA
+    name: "Moderna"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Pharmaceuticals, Biotechnology & Life Sciences"
+    industry_group_etf:
+    gics_sub_industry: "Biotechnology"
+    peers: [ABBV, AMGN, BIIB, GILD, INCY, REGN, VRTX]
+  - ticker: TAP
+    name: "Molson Coors Beverage Company"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Food, Beverage & Tobacco"
+    industry_group_etf: PBJ
+    gics_sub_industry: "Brewers"
+    peers: []
+  - ticker: MDLZ
+    name: "Mondelez International"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Food, Beverage & Tobacco"
+    industry_group_etf: PBJ
+    gics_sub_industry: "Packaged Foods & Meats"
+    peers: [CAG, CPB, GIS, HRL, HSY, KHC, MKC, SJM, TSN]
+  - ticker: MPWR
+    name: "Monolithic Power Systems"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Semiconductors & Semiconductor Equipment"
+    industry_group_etf: SMH
+    gics_sub_industry: "Semiconductors"
+    peers: [ADI, AMD, AVGO, FSLR, INTC, MCHP, MU, NVDA, NXPI, "ON", QCOM, SWKS, TXN]
+  - ticker: MNST
+    name: "Monster Beverage"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Food, Beverage & Tobacco"
+    industry_group_etf: PBJ
+    gics_sub_industry: "Soft Drinks & Non-alcoholic Beverages"
+    peers: [KDP, KO, PEP]
+  - ticker: MCO
+    name: "Moody's Corporation"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Financial Exchanges & Data"
+    peers: [CBOE, CME, COIN, FDS, ICE, MSCI, NDAQ, SPGI]
+  - ticker: MS
+    name: "Morgan Stanley"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Investment Banking & Brokerage"
+    peers: [GS, HOOD, IBKR, RJF, SCHW]
+  - ticker: MOS
+    name: "Mosaic Company (The)"
+    gics_sector: "Materials"
+    sector_etf: XLB
+    gics_industry_group: "Materials"
+    industry_group_etf:
+    gics_sub_industry: "Fertilizers & Agricultural Chemicals"
+    peers: [CF, CTVA]
+  - ticker: MSI
+    name: "Motorola Solutions"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Technology Hardware & Equipment"
+    industry_group_etf:
+    gics_sub_industry: "Communications Equipment"
+    peers: [ANET, CIEN, CSCO, FFIV, LITE]
+  - ticker: MSCI
+    name: "MSCI Inc."
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Financial Exchanges & Data"
+    peers: [CBOE, CME, COIN, FDS, ICE, MCO, NDAQ, SPGI]
+  - ticker: NDAQ
+    name: "Nasdaq, Inc."
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Financial Exchanges & Data"
+    peers: [CBOE, CME, COIN, FDS, ICE, MCO, MSCI, SPGI]
+  - ticker: NTAP
+    name: "NetApp"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Technology Hardware & Equipment"
+    industry_group_etf:
+    gics_sub_industry: "Technology Hardware, Storage & Peripherals"
+    peers: [AAPL, DELL, HPE, HPQ, SMCI, SNDK, STX, WDC]
+  - ticker: NFLX
+    name: "Netflix"
+    gics_sector: "Communication Services"
+    sector_etf: XLC
+    gics_industry_group: "Media & Entertainment"
+    industry_group_etf:
+    gics_sub_industry: "Movies & Entertainment"
+    peers: [DIS, LYV, PSKY, TKO]
+  - ticker: NEM
+    name: "Newmont"
+    gics_sector: "Materials"
+    sector_etf: XLB
+    gics_industry_group: "Materials"
+    industry_group_etf:
+    gics_sub_industry: "Gold"
+    peers: []
+  - ticker: NWSA
+    name: "News Corp (Class A)"
+    gics_sector: "Communication Services"
+    sector_etf: XLC
+    gics_industry_group: "Media & Entertainment"
+    industry_group_etf:
+    gics_sub_industry: "Publishing"
+    peers: [NWS]
+  - ticker: NWS
+    name: "News Corp (Class B)"
+    gics_sector: "Communication Services"
+    sector_etf: XLC
+    gics_industry_group: "Media & Entertainment"
+    industry_group_etf:
+    gics_sub_industry: "Publishing"
+    peers: [NWSA]
+  - ticker: NEE
+    name: "NextEra Energy"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Multi-Utilities"
+    peers: [AEE, CMS, CNP, D, DTE, ED, NI, PCG, PNW, SRE, XEL]
+  - ticker: NKE
+    name: "Nike, Inc."
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Durables & Apparel"
+    industry_group_etf:
+    gics_sub_industry: "Apparel, Accessories & Luxury Goods"
+    peers: [LULU, RL, TPR]
+  - ticker: NI
+    name: "NiSource"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Multi-Utilities"
+    peers: [AEE, CMS, CNP, D, DTE, ED, NEE, PCG, PNW, SRE, XEL]
+  - ticker: NDSN
+    name: "Nordson Corporation"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Industrial Machinery & Supplies & Components"
+    peers: [DOV, FTV, GWW, HUBB, IEX, IR, ITW, OTIS, PH, PNR, SNA, SWK, XYL]
+  - ticker: NSC
+    name: "Norfolk Southern"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Transportation"
+    industry_group_etf: IYT
+    gics_sub_industry: "Rail Transportation"
+    peers: [CSX, UNP]
+  - ticker: NTRS
+    name: "Northern Trust"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Asset Management & Custody Banks"
+    peers: [AMP, APO, ARES, BEN, BLK, BNY, BX, IVZ, KKR, STT, TROW]
+  - ticker: NOC
+    name: "Northrop Grumman"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Aerospace & Defense"
+    peers: [AXON, BA, GD, GE, HII, HWM, LHX, LMT, RTX, TDG, TXT]
+  - ticker: NCLH
+    name: "Norwegian Cruise Line Holdings"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Services"
+    industry_group_etf:
+    gics_sub_industry: "Hotels, Resorts & Cruise Lines"
+    peers: [ABNB, BKNG, CCL, EXPE, HLT, MAR, RCL]
+  - ticker: NRG
+    name: "NRG Energy"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Independent Power Producers & Energy Traders"
+    peers: [AES]
+  - ticker: NUE
+    name: "Nucor"
+    gics_sector: "Materials"
+    sector_etf: XLB
+    gics_industry_group: "Materials"
+    industry_group_etf:
+    gics_sub_industry: "Steel"
+    peers: [STLD]
+  - ticker: NVDA
+    name: "Nvidia"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Semiconductors & Semiconductor Equipment"
+    industry_group_etf: SMH
+    gics_sub_industry: "Semiconductors"
+    peers: [ADI, AMD, AVGO, FSLR, INTC, MCHP, MPWR, MU, NXPI, "ON", QCOM, SWKS, TXN]
+  - ticker: NVR
+    name: "NVR, Inc."
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Durables & Apparel"
+    industry_group_etf:
+    gics_sub_industry: "Homebuilding"
+    peers: [DHI, LEN, PHM]
+  - ticker: NXPI
+    name: "NXP Semiconductors"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Semiconductors & Semiconductor Equipment"
+    industry_group_etf: SMH
+    gics_sub_industry: "Semiconductors"
+    peers: [ADI, AMD, AVGO, FSLR, INTC, MCHP, MPWR, MU, NVDA, "ON", QCOM, SWKS, TXN]
+  - ticker: ORLY
+    name: "O'Reilly Automotive"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Discretionary Distribution & Retail"
+    industry_group_etf: XRT
+    gics_sub_industry: "Automotive Retail"
+    peers: [AZO, CVNA]
+  - ticker: OXY
+    name: "Occidental Petroleum"
+    gics_sector: "Energy"
+    sector_etf: XLE
+    gics_industry_group: "Energy"
+    industry_group_etf:
+    gics_sub_industry: "Oil & Gas Exploration & Production"
+    peers: [APA, COP, DVN, EOG, EQT, EXE, FANG, TPL]
+  - ticker: ODFL
+    name: "Old Dominion"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Transportation"
+    industry_group_etf: IYT
+    gics_sub_industry: "Cargo Ground Transportation"
+    peers: [JBHT]
+  - ticker: OMC
+    name: "Omnicom Group"
+    gics_sector: "Communication Services"
+    sector_etf: XLC
+    gics_industry_group: "Media & Entertainment"
+    industry_group_etf:
+    gics_sub_industry: "Advertising"
+    peers: [TTD]
+  - ticker: "ON"
+    name: "ON Semiconductor"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Semiconductors & Semiconductor Equipment"
+    industry_group_etf: SMH
+    gics_sub_industry: "Semiconductors"
+    peers: [ADI, AMD, AVGO, FSLR, INTC, MCHP, MPWR, MU, NVDA, NXPI, QCOM, SWKS, TXN]
+  - ticker: OKE
+    name: "Oneok"
+    gics_sector: "Energy"
+    sector_etf: XLE
+    gics_industry_group: "Energy"
+    industry_group_etf:
+    gics_sub_industry: "Oil & Gas Storage & Transportation"
+    peers: [KMI, TRGP, WMB]
+  - ticker: ORCL
+    name: "Oracle Corporation"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "Application Software"
+    peers: [ADBE, ADSK, APP, CDNS, CRM, DDOG, FICO, INTU, PLTR, PTC, SNPS, TRMB, TYL, WDAY]
+  - ticker: OTIS
+    name: "Otis Worldwide"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Industrial Machinery & Supplies & Components"
+    peers: [DOV, FTV, GWW, HUBB, IEX, IR, ITW, NDSN, PH, PNR, SNA, SWK, XYL]
+  - ticker: PCAR
+    name: "Paccar"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Construction Machinery & Heavy Transportation Equipment"
+    peers: [CAT, CMI, WAB]
+  - ticker: PKG
+    name: "Packaging Corporation of America"
+    gics_sector: "Materials"
+    sector_etf: XLB
+    gics_industry_group: "Materials"
+    industry_group_etf:
+    gics_sub_industry: "Paper & Plastic Packaging Products & Materials"
+    peers: [AMCR, AVY, IP, SW]
+  - ticker: PLTR
+    name: "Palantir Technologies"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "Application Software"
+    peers: [ADBE, ADSK, APP, CDNS, CRM, DDOG, FICO, INTU, ORCL, PTC, SNPS, TRMB, TYL, WDAY]
+  - ticker: PANW
+    name: "Palo Alto Networks"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "Systems Software"
+    peers: [CRWD, FTNT, GEN, MSFT, NOW]
+  - ticker: PSKY
+    name: "Paramount Skydance Corporation"
+    gics_sector: "Communication Services"
+    sector_etf: XLC
+    gics_industry_group: "Media & Entertainment"
+    industry_group_etf:
+    gics_sub_industry: "Movies & Entertainment"
+    peers: [DIS, LYV, NFLX, TKO]
+  - ticker: PH
+    name: "Parker Hannifin"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Industrial Machinery & Supplies & Components"
+    peers: [DOV, FTV, GWW, HUBB, IEX, IR, ITW, NDSN, OTIS, PNR, SNA, SWK, XYL]
+  - ticker: PAYX
+    name: "Paychex"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Commercial & Professional Services"
+    industry_group_etf:
+    gics_sub_industry: "Human Resource & Employment Services"
+    peers: [ADP]
+  - ticker: PYPL
+    name: "PayPal"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Transaction & Payment Processing Services"
+    peers: [CPAY, FIS, FISV, GPN, JKHY, MA, V, XYZ]
+  - ticker: PNR
+    name: "Pentair"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Industrial Machinery & Supplies & Components"
+    peers: [DOV, FTV, GWW, HUBB, IEX, IR, ITW, NDSN, OTIS, PH, SNA, SWK, XYL]
+  - ticker: PEP
+    name: "PepsiCo"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Food, Beverage & Tobacco"
+    industry_group_etf: PBJ
+    gics_sub_industry: "Soft Drinks & Non-alcoholic Beverages"
+    peers: [KDP, KO, MNST]
+  - ticker: PFE
+    name: "Pfizer"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Pharmaceuticals, Biotechnology & Life Sciences"
+    industry_group_etf:
+    gics_sub_industry: "Pharmaceuticals"
+    peers: [BMY, JNJ, LLY, MRK, VTRS, ZTS]
+  - ticker: PCG
+    name: "PG&E Corporation"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Multi-Utilities"
+    peers: [AEE, CMS, CNP, D, DTE, ED, NEE, NI, PNW, SRE, XEL]
+  - ticker: PM
+    name: "Philip Morris International"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Food, Beverage & Tobacco"
+    industry_group_etf: PBJ
+    gics_sub_industry: "Tobacco"
+    peers: [MO]
+  - ticker: PSX
+    name: "Phillips 66"
+    gics_sector: "Energy"
+    sector_etf: XLE
+    gics_industry_group: "Energy"
+    industry_group_etf:
+    gics_sub_industry: "Oil & Gas Refining & Marketing"
+    peers: [MPC, VLO]
+  - ticker: PNW
+    name: "Pinnacle West Capital"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Multi-Utilities"
+    peers: [AEE, CMS, CNP, D, DTE, ED, NEE, NI, PCG, SRE, XEL]
+  - ticker: PNC
+    name: "PNC Financial Services"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Banks"
+    industry_group_etf: KBE
+    gics_sub_industry: "Diversified Banks"
+    peers: [BAC, C, JPM, TFC, USB, WFC]
+  - ticker: POOL
+    name: "Pool Corporation"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Discretionary Distribution & Retail"
+    industry_group_etf: XRT
+    gics_sub_industry: "Distributors"
+    peers: [GPC]
+  - ticker: PPG
+    name: "PPG Industries"
+    gics_sector: "Materials"
+    sector_etf: XLB
+    gics_industry_group: "Materials"
+    industry_group_etf:
+    gics_sub_industry: "Specialty Chemicals"
+    peers: [ALB, DD, ECL, IFF, LYB, SHW]
+  - ticker: PPL
+    name: "PPL Corporation"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Electric Utilities"
+    peers: [AEP, CEG, DUK, EIX, ES, ETR, EVRG, EXC, FE, LNT, PEG, SO, VST, WEC]
+  - ticker: PFG
+    name: "Principal Financial Group"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Insurance"
+    industry_group_etf: KIE
+    gics_sub_industry: "Life & Health Insurance"
+    peers: [AFL, GL, MET, PRU]
+  - ticker: PG
+    name: "Procter & Gamble"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Household & Personal Products"
+    industry_group_etf:
+    gics_sub_industry: "Personal Care Products"
+    peers: [EL, KVUE]
+  - ticker: PGR
+    name: "Progressive Corporation"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Insurance"
+    industry_group_etf: KIE
+    gics_sub_industry: "Property & Casualty Insurance"
+    peers: [ACGL, ALL, CB, CINF, HIG, TRV, WRB]
+  - ticker: PLD
+    name: "Prologis"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Industrial REITs"
+    peers: []
+  - ticker: PRU
+    name: "Prudential Financial"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Insurance"
+    industry_group_etf: KIE
+    gics_sub_industry: "Life & Health Insurance"
+    peers: [AFL, GL, MET, PFG]
+  - ticker: PEG
+    name: "Public Service Enterprise Group"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Electric Utilities"
+    peers: [AEP, CEG, DUK, EIX, ES, ETR, EVRG, EXC, FE, LNT, PPL, SO, VST, WEC]
+  - ticker: PTC
+    name: "PTC Inc."
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "Application Software"
+    peers: [ADBE, ADSK, APP, CDNS, CRM, DDOG, FICO, INTU, ORCL, PLTR, SNPS, TRMB, TYL, WDAY]
+  - ticker: PSA
+    name: "Public Storage"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Self-Storage REITs"
+    peers: [EXR]
+  - ticker: PHM
+    name: "PulteGroup"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Durables & Apparel"
+    industry_group_etf:
+    gics_sub_industry: "Homebuilding"
+    peers: [DHI, LEN, NVR]
+  - ticker: PWR
+    name: "Quanta Services"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Construction & Engineering"
+    peers: [EME, FIX, J]
+  - ticker: QCOM
+    name: "Qualcomm"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Semiconductors & Semiconductor Equipment"
+    industry_group_etf: SMH
+    gics_sub_industry: "Semiconductors"
+    peers: [ADI, AMD, AVGO, FSLR, INTC, MCHP, MPWR, MU, NVDA, NXPI, "ON", SWKS, TXN]
+  - ticker: DGX
+    name: "Quest Diagnostics"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Services"
+    peers: [CI, CVS, DVA, LH]
+  - ticker: Q
+    name: "Qnity Electronics"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Semiconductors & Semiconductor Equipment"
+    industry_group_etf: SMH
+    gics_sub_industry: "Semiconductor Materials & Equipment"
+    peers: [AMAT, KLAC, LRCX, TER]
+  - ticker: RL
+    name: "Ralph Lauren Corporation"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Durables & Apparel"
+    industry_group_etf:
+    gics_sub_industry: "Apparel, Accessories & Luxury Goods"
+    peers: [LULU, NKE, TPR]
+  - ticker: RJF
+    name: "Raymond James Financial"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Investment Banking & Brokerage"
+    peers: [GS, HOOD, IBKR, MS, SCHW]
+  - ticker: RTX
+    name: "RTX Corporation"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Aerospace & Defense"
+    peers: [AXON, BA, GD, GE, HII, HWM, LHX, LMT, NOC, TDG, TXT]
+  - ticker: O
+    name: "Realty Income"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Retail REITs"
+    peers: [FRT, KIM, REG, SPG]
+  - ticker: REG
+    name: "Regency Centers"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Retail REITs"
+    peers: [FRT, KIM, O, SPG]
+  - ticker: REGN
+    name: "Regeneron Pharmaceuticals"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Pharmaceuticals, Biotechnology & Life Sciences"
+    industry_group_etf:
+    gics_sub_industry: "Biotechnology"
+    peers: [ABBV, AMGN, BIIB, GILD, INCY, MRNA, VRTX]
+  - ticker: RF
+    name: "Regions Financial Corporation"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Banks"
+    industry_group_etf: KBE
+    gics_sub_industry: "Regional Banks"
+    peers: [CFG, FITB, HBAN, KEY, MTB]
+  - ticker: RSG
+    name: "Republic Services"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Commercial & Professional Services"
+    industry_group_etf:
+    gics_sub_industry: "Environmental & Facilities Services"
+    peers: [ROL, VLTO, WM]
+  - ticker: RMD
+    name: "ResMed"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Equipment"
+    peers: [ABT, BAX, BDX, BSX, DXCM, EW, GEHC, IDXX, ISRG, MDT, PODD, RVTY, STE, SYK, ZBH]
+  - ticker: RVTY
+    name: "Revvity"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Equipment"
+    peers: [ABT, BAX, BDX, BSX, DXCM, EW, GEHC, IDXX, ISRG, MDT, PODD, RMD, STE, SYK, ZBH]
+  - ticker: HOOD
+    name: "Robinhood Markets"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Investment Banking & Brokerage"
+    peers: [GS, IBKR, MS, RJF, SCHW]
+  - ticker: ROK
+    name: "Rockwell Automation"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Electrical Components & Equipment"
+    peers: [AME, EMR, ETN, GNRC, VRT]
+  - ticker: ROL
+    name: "Rollins, Inc."
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Commercial & Professional Services"
+    industry_group_etf:
+    gics_sub_industry: "Environmental & Facilities Services"
+    peers: [RSG, VLTO, WM]
+  - ticker: ROP
+    name: "Roper Technologies"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Technology Hardware & Equipment"
+    industry_group_etf:
+    gics_sub_industry: "Electronic Equipment & Instruments"
+    peers: [KEYS, TDY, ZBRA]
+  - ticker: ROST
+    name: "Ross Stores"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Discretionary Distribution & Retail"
+    industry_group_etf: XRT
+    gics_sub_industry: "Apparel Retail"
+    peers: [TJX]
+  - ticker: RCL
+    name: "Royal Caribbean Group"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Services"
+    industry_group_etf:
+    gics_sub_industry: "Hotels, Resorts & Cruise Lines"
+    peers: [ABNB, BKNG, CCL, EXPE, HLT, MAR, NCLH]
+  - ticker: SPGI
+    name: "S&P Global"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Financial Exchanges & Data"
+    peers: [CBOE, CME, COIN, FDS, ICE, MCO, MSCI, NDAQ]
+  - ticker: CRM
+    name: "Salesforce"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "Application Software"
+    peers: [ADBE, ADSK, APP, CDNS, DDOG, FICO, INTU, ORCL, PLTR, PTC, SNPS, TRMB, TYL, WDAY]
+  - ticker: SNDK
+    name: "Sandisk"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Technology Hardware & Equipment"
+    industry_group_etf:
+    gics_sub_industry: "Technology Hardware, Storage & Peripherals"
+    peers: [AAPL, DELL, HPE, HPQ, NTAP, SMCI, STX, WDC]
+  - ticker: SBAC
+    name: "SBA Communications"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Telecom Tower REITs"
+    peers: [AMT, CCI]
+  - ticker: SLB
+    name: "Schlumberger"
+    gics_sector: "Energy"
+    sector_etf: XLE
+    gics_industry_group: "Energy"
+    industry_group_etf:
+    gics_sub_industry: "Oil & Gas Equipment & Services"
+    peers: [BKR, HAL]
+  - ticker: STX
+    name: "Seagate Technology"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Technology Hardware & Equipment"
+    industry_group_etf:
+    gics_sub_industry: "Technology Hardware, Storage & Peripherals"
+    peers: [AAPL, DELL, HPE, HPQ, NTAP, SMCI, SNDK, WDC]
+  - ticker: SRE
+    name: "Sempra"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Multi-Utilities"
+    peers: [AEE, CMS, CNP, D, DTE, ED, NEE, NI, PCG, PNW, XEL]
+  - ticker: NOW
+    name: "ServiceNow"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "Systems Software"
+    peers: [CRWD, FTNT, GEN, MSFT, PANW]
+  - ticker: SHW
+    name: "Sherwin-Williams"
+    gics_sector: "Materials"
+    sector_etf: XLB
+    gics_industry_group: "Materials"
+    industry_group_etf:
+    gics_sub_industry: "Specialty Chemicals"
+    peers: [ALB, DD, ECL, IFF, LYB, PPG]
+  - ticker: SPG
+    name: "Simon Property Group"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Retail REITs"
+    peers: [FRT, KIM, O, REG]
+  - ticker: SWKS
+    name: "Skyworks Solutions"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Semiconductors & Semiconductor Equipment"
+    industry_group_etf: SMH
+    gics_sub_industry: "Semiconductors"
+    peers: [ADI, AMD, AVGO, FSLR, INTC, MCHP, MPWR, MU, NVDA, NXPI, "ON", QCOM, TXN]
+  - ticker: SJM
+    name: "J.M. Smucker Company (The)"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Food, Beverage & Tobacco"
+    industry_group_etf: PBJ
+    gics_sub_industry: "Packaged Foods & Meats"
+    peers: [CAG, CPB, GIS, HRL, HSY, KHC, MDLZ, MKC, TSN]
+  - ticker: SW
+    name: "Smurfit Westrock"
+    gics_sector: "Materials"
+    sector_etf: XLB
+    gics_industry_group: "Materials"
+    industry_group_etf:
+    gics_sub_industry: "Paper & Plastic Packaging Products & Materials"
+    peers: [AMCR, AVY, IP, PKG]
+  - ticker: SNA
+    name: "Snap-on"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Industrial Machinery & Supplies & Components"
+    peers: [DOV, FTV, GWW, HUBB, IEX, IR, ITW, NDSN, OTIS, PH, PNR, SWK, XYL]
+  - ticker: SOLV
+    name: "Solventum"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Technology"
+    peers: [VEEV]
+  - ticker: SO
+    name: "Southern Company"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Electric Utilities"
+    peers: [AEP, CEG, DUK, EIX, ES, ETR, EVRG, EXC, FE, LNT, PEG, PPL, VST, WEC]
+  - ticker: LUV
+    name: "Southwest Airlines"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Transportation"
+    industry_group_etf: IYT
+    gics_sub_industry: "Passenger Airlines"
+    peers: [DAL, UAL]
+  - ticker: SWK
+    name: "Stanley Black & Decker"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Industrial Machinery & Supplies & Components"
+    peers: [DOV, FTV, GWW, HUBB, IEX, IR, ITW, NDSN, OTIS, PH, PNR, SNA, XYL]
+  - ticker: SBUX
+    name: "Starbucks"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Services"
+    industry_group_etf:
+    gics_sub_industry: "Restaurants"
+    peers: [CMG, DPZ, DRI, MCD, YUM]
+  - ticker: STT
+    name: "State Street Corporation"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Asset Management & Custody Banks"
+    peers: [AMP, APO, ARES, BEN, BLK, BNY, BX, IVZ, KKR, NTRS, TROW]
+  - ticker: STLD
+    name: "Steel Dynamics"
+    gics_sector: "Materials"
+    sector_etf: XLB
+    gics_industry_group: "Materials"
+    industry_group_etf:
+    gics_sub_industry: "Steel"
+    peers: [NUE]
+  - ticker: STE
+    name: "Steris"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Equipment"
+    peers: [ABT, BAX, BDX, BSX, DXCM, EW, GEHC, IDXX, ISRG, MDT, PODD, RMD, RVTY, SYK, ZBH]
+  - ticker: SYK
+    name: "Stryker Corporation"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Equipment"
+    peers: [ABT, BAX, BDX, BSX, DXCM, EW, GEHC, IDXX, ISRG, MDT, PODD, RMD, RVTY, STE, ZBH]
+  - ticker: SMCI
+    name: "Supermicro"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Technology Hardware & Equipment"
+    industry_group_etf:
+    gics_sub_industry: "Technology Hardware, Storage & Peripherals"
+    peers: [AAPL, DELL, HPE, HPQ, NTAP, SNDK, STX, WDC]
+  - ticker: SYF
+    name: "Synchrony Financial"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Consumer Finance"
+    peers: [AXP, COF]
+  - ticker: SNPS
+    name: "Synopsys"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "Application Software"
+    peers: [ADBE, ADSK, APP, CDNS, CRM, DDOG, FICO, INTU, ORCL, PLTR, PTC, TRMB, TYL, WDAY]
+  - ticker: SYY
+    name: "Sysco"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Consumer Staples Distribution & Retail"
+    industry_group_etf:
+    gics_sub_industry: "Food Distributors"
+    peers: []
+  - ticker: TMUS
+    name: "T-Mobile US"
+    gics_sector: "Communication Services"
+    sector_etf: XLC
+    gics_industry_group: "Telecommunication Services"
+    industry_group_etf:
+    gics_sub_industry: "Wireless Telecommunication Services"
+    peers: [SATS]
+  - ticker: TROW
+    name: "T. Rowe Price"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Asset Management & Custody Banks"
+    peers: [AMP, APO, ARES, BEN, BLK, BNY, BX, IVZ, KKR, NTRS, STT]
+  - ticker: TTWO
+    name: "Take-Two Interactive"
+    gics_sector: "Communication Services"
+    sector_etf: XLC
+    gics_industry_group: "Media & Entertainment"
+    industry_group_etf:
+    gics_sub_industry: "Interactive Home Entertainment"
+    peers: [EA]
+  - ticker: TPR
+    name: "Tapestry, Inc."
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Durables & Apparel"
+    industry_group_etf:
+    gics_sub_industry: "Apparel, Accessories & Luxury Goods"
+    peers: [LULU, NKE, RL]
+  - ticker: TRGP
+    name: "Targa Resources"
+    gics_sector: "Energy"
+    sector_etf: XLE
+    gics_industry_group: "Energy"
+    industry_group_etf:
+    gics_sub_industry: "Oil & Gas Storage & Transportation"
+    peers: [KMI, OKE, WMB]
+  - ticker: TGT
+    name: "Target Corporation"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Consumer Staples Distribution & Retail"
+    industry_group_etf:
+    gics_sub_industry: "Consumer Staples Merchandise Retail"
+    peers: [COST, DG, DLTR, WMT]
+  - ticker: TEL
+    name: "TE Connectivity"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Technology Hardware & Equipment"
+    industry_group_etf:
+    gics_sub_industry: "Electronic Manufacturing Services"
+    peers: [JBL]
+  - ticker: TDY
+    name: "Teledyne Technologies"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Technology Hardware & Equipment"
+    industry_group_etf:
+    gics_sub_industry: "Electronic Equipment & Instruments"
+    peers: [KEYS, ROP, ZBRA]
+  - ticker: TER
+    name: "Teradyne"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Semiconductors & Semiconductor Equipment"
+    industry_group_etf: SMH
+    gics_sub_industry: "Semiconductor Materials & Equipment"
+    peers: [AMAT, KLAC, LRCX, Q]
+  - ticker: TSLA
+    name: "Tesla, Inc."
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Automobiles & Components"
+    industry_group_etf:
+    gics_sub_industry: "Automobile Manufacturers"
+    peers: [F, GM]
+  - ticker: TXN
+    name: "Texas Instruments"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Semiconductors & Semiconductor Equipment"
+    industry_group_etf: SMH
+    gics_sub_industry: "Semiconductors"
+    peers: [ADI, AMD, AVGO, FSLR, INTC, MCHP, MPWR, MU, NVDA, NXPI, "ON", QCOM, SWKS]
+  - ticker: TPL
+    name: "Texas Pacific Land Corporation"
+    gics_sector: "Energy"
+    sector_etf: XLE
+    gics_industry_group: "Energy"
+    industry_group_etf:
+    gics_sub_industry: "Oil & Gas Exploration & Production"
+    peers: [APA, COP, DVN, EOG, EQT, EXE, FANG, OXY]
+  - ticker: TXT
+    name: "Textron"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Aerospace & Defense"
+    peers: [AXON, BA, GD, GE, HII, HWM, LHX, LMT, NOC, RTX, TDG]
+  - ticker: TMO
+    name: "Thermo Fisher Scientific"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Pharmaceuticals, Biotechnology & Life Sciences"
+    industry_group_etf:
+    gics_sub_industry: "Life Sciences Tools & Services"
+    peers: [A, CRL, DHR, IQV, MTD, TECH, WAT]
+  - ticker: TJX
+    name: "TJX Companies"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Discretionary Distribution & Retail"
+    industry_group_etf: XRT
+    gics_sub_industry: "Apparel Retail"
+    peers: [ROST]
+  - ticker: TKO
+    name: "TKO Group Holdings"
+    gics_sector: "Communication Services"
+    sector_etf: XLC
+    gics_industry_group: "Media & Entertainment"
+    industry_group_etf:
+    gics_sub_industry: "Movies & Entertainment"
+    peers: [DIS, LYV, NFLX, PSKY]
+  - ticker: TTD
+    name: "Trade Desk (The)"
+    gics_sector: "Communication Services"
+    sector_etf: XLC
+    gics_industry_group: "Media & Entertainment"
+    industry_group_etf:
+    gics_sub_industry: "Advertising"
+    peers: [OMC]
+  - ticker: TSCO
+    name: "Tractor Supply"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Discretionary Distribution & Retail"
+    industry_group_etf: XRT
+    gics_sub_industry: "Other Specialty Retail"
+    peers: [ULTA]
+  - ticker: TT
+    name: "Trane Technologies"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Building Products"
+    peers: [ALLE, AOS, BLDR, CARR, JCI, LII, MAS]
+  - ticker: TDG
+    name: "TransDigm Group"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Aerospace & Defense"
+    peers: [AXON, BA, GD, GE, HII, HWM, LHX, LMT, NOC, RTX, TXT]
+  - ticker: TRV
+    name: "Travelers Companies (The)"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Insurance"
+    industry_group_etf: KIE
+    gics_sub_industry: "Property & Casualty Insurance"
+    peers: [ACGL, ALL, CB, CINF, HIG, PGR, WRB]
+  - ticker: TRMB
+    name: "Trimble Inc."
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "Application Software"
+    peers: [ADBE, ADSK, APP, CDNS, CRM, DDOG, FICO, INTU, ORCL, PLTR, PTC, SNPS, TYL, WDAY]
+  - ticker: TFC
+    name: "Truist Financial"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Banks"
+    industry_group_etf: KBE
+    gics_sub_industry: "Diversified Banks"
+    peers: [BAC, C, JPM, PNC, USB, WFC]
+  - ticker: TYL
+    name: "Tyler Technologies"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "Application Software"
+    peers: [ADBE, ADSK, APP, CDNS, CRM, DDOG, FICO, INTU, ORCL, PLTR, PTC, SNPS, TRMB, WDAY]
+  - ticker: TSN
+    name: "Tyson Foods"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Food, Beverage & Tobacco"
+    industry_group_etf: PBJ
+    gics_sub_industry: "Packaged Foods & Meats"
+    peers: [CAG, CPB, GIS, HRL, HSY, KHC, MDLZ, MKC, SJM]
+  - ticker: USB
+    name: "U.S. Bancorp"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Banks"
+    industry_group_etf: KBE
+    gics_sub_industry: "Diversified Banks"
+    peers: [BAC, C, JPM, PNC, TFC, WFC]
+  - ticker: UBER
+    name: "Uber"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Transportation"
+    industry_group_etf: IYT
+    gics_sub_industry: "Passenger Ground Transportation"
+    peers: []
+  - ticker: UDR
+    name: "UDR, Inc."
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Multi-Family Residential REITs"
+    peers: [AVB, CPT, EQR, ESS, MAA]
+  - ticker: ULTA
+    name: "Ulta Beauty"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Discretionary Distribution & Retail"
+    industry_group_etf: XRT
+    gics_sub_industry: "Other Specialty Retail"
+    peers: [TSCO]
+  - ticker: UNP
+    name: "Union Pacific Corporation"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Transportation"
+    industry_group_etf: IYT
+    gics_sub_industry: "Rail Transportation"
+    peers: [CSX, NSC]
+  - ticker: UAL
+    name: "United Airlines Holdings"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Transportation"
+    industry_group_etf: IYT
+    gics_sub_industry: "Passenger Airlines"
+    peers: [DAL, LUV]
+  - ticker: UPS
+    name: "United Parcel Service"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Transportation"
+    industry_group_etf: IYT
+    gics_sub_industry: "Air Freight & Logistics"
+    peers: [CHRW, EXPD, FDX]
+  - ticker: URI
+    name: "United Rentals"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Trading Companies & Distributors"
+    peers: [FAST]
+  - ticker: UNH
+    name: "UnitedHealth Group"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Managed Health Care"
+    peers: [CNC, ELV, HUM]
+  - ticker: UHS
+    name: "Universal Health Services"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Facilities"
+    peers: [HCA]
+  - ticker: VLO
+    name: "Valero Energy"
+    gics_sector: "Energy"
+    sector_etf: XLE
+    gics_industry_group: "Energy"
+    industry_group_etf:
+    gics_sub_industry: "Oil & Gas Refining & Marketing"
+    peers: [MPC, PSX]
+  - ticker: VEEV
+    name: "Veeva Systems"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Technology"
+    peers: [SOLV]
+  - ticker: VTR
+    name: "Ventas"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Health Care REITs"
+    peers: [DOC, WELL]
+  - ticker: VLTO
+    name: "Veralto"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Commercial & Professional Services"
+    industry_group_etf:
+    gics_sub_industry: "Environmental & Facilities Services"
+    peers: [ROL, RSG, WM]
+  - ticker: VRSN
+    name: "Verisign"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "Internet Services & Infrastructure"
+    peers: [AKAM, GDDY]
+  - ticker: VRSK
+    name: "Verisk Analytics"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Commercial & Professional Services"
+    industry_group_etf:
+    gics_sub_industry: "Research & Consulting Services"
+    peers: [EFX]
+  - ticker: VZ
+    name: "Verizon"
+    gics_sector: "Communication Services"
+    sector_etf: XLC
+    gics_industry_group: "Telecommunication Services"
+    industry_group_etf:
+    gics_sub_industry: "Integrated Telecommunication Services"
+    peers: [T]
+  - ticker: VRTX
+    name: "Vertex Pharmaceuticals"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Pharmaceuticals, Biotechnology & Life Sciences"
+    industry_group_etf:
+    gics_sub_industry: "Biotechnology"
+    peers: [ABBV, AMGN, BIIB, GILD, INCY, MRNA, REGN]
+  - ticker: VRT
+    name: "Vertiv"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Electrical Components & Equipment"
+    peers: [AME, EMR, ETN, GNRC, ROK]
+  - ticker: VTRS
+    name: "Viatris"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Pharmaceuticals, Biotechnology & Life Sciences"
+    industry_group_etf:
+    gics_sub_industry: "Pharmaceuticals"
+    peers: [BMY, JNJ, LLY, MRK, PFE, ZTS]
+  - ticker: VICI
+    name: "Vici Properties"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Hotel & Resort REITs"
+    peers: [HST]
+  - ticker: V
+    name: "Visa Inc."
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Financial Services"
+    industry_group_etf:
+    gics_sub_industry: "Transaction & Payment Processing Services"
+    peers: [CPAY, FIS, FISV, GPN, JKHY, MA, PYPL, XYZ]
+  - ticker: VST
+    name: "Vistra Corp."
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Electric Utilities"
+    peers: [AEP, CEG, DUK, EIX, ES, ETR, EVRG, EXC, FE, LNT, PEG, PPL, SO, WEC]
+  - ticker: VMC
+    name: "Vulcan Materials Company"
+    gics_sector: "Materials"
+    sector_etf: XLB
+    gics_industry_group: "Materials"
+    industry_group_etf:
+    gics_sub_industry: "Construction Materials"
+    peers: [CRH, MLM]
+  - ticker: WRB
+    name: "W. R. Berkley Corporation"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Insurance"
+    industry_group_etf: KIE
+    gics_sub_industry: "Property & Casualty Insurance"
+    peers: [ACGL, ALL, CB, CINF, HIG, PGR, TRV]
+  - ticker: GWW
+    name: "W. W. Grainger"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Industrial Machinery & Supplies & Components"
+    peers: [DOV, FTV, HUBB, IEX, IR, ITW, NDSN, OTIS, PH, PNR, SNA, SWK, XYL]
+  - ticker: WAB
+    name: "Wabtec"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Construction Machinery & Heavy Transportation Equipment"
+    peers: [CAT, CMI, PCAR]
+  - ticker: WMT
+    name: "Walmart"
+    gics_sector: "Consumer Staples"
+    sector_etf: XLP
+    gics_industry_group: "Consumer Staples Distribution & Retail"
+    industry_group_etf:
+    gics_sub_industry: "Consumer Staples Merchandise Retail"
+    peers: [COST, DG, DLTR, TGT]
+  - ticker: DIS
+    name: "Walt Disney Company (The)"
+    gics_sector: "Communication Services"
+    sector_etf: XLC
+    gics_industry_group: "Media & Entertainment"
+    industry_group_etf:
+    gics_sub_industry: "Movies & Entertainment"
+    peers: [LYV, NFLX, PSKY, TKO]
+  - ticker: WBD
+    name: "Warner Bros. Discovery"
+    gics_sector: "Communication Services"
+    sector_etf: XLC
+    gics_industry_group: "Media & Entertainment"
+    industry_group_etf:
+    gics_sub_industry: "Broadcasting"
+    peers: [FOX, FOXA]
+  - ticker: WM
+    name: "Waste Management"
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Commercial & Professional Services"
+    industry_group_etf:
+    gics_sub_industry: "Environmental & Facilities Services"
+    peers: [ROL, RSG, VLTO]
+  - ticker: WAT
+    name: "Waters Corporation"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Pharmaceuticals, Biotechnology & Life Sciences"
+    industry_group_etf:
+    gics_sub_industry: "Life Sciences Tools & Services"
+    peers: [A, CRL, DHR, IQV, MTD, TECH, TMO]
+  - ticker: WEC
+    name: "WEC Energy Group"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Electric Utilities"
+    peers: [AEP, CEG, DUK, EIX, ES, ETR, EVRG, EXC, FE, LNT, PEG, PPL, SO, VST]
+  - ticker: WFC
+    name: "Wells Fargo"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Banks"
+    industry_group_etf: KBE
+    gics_sub_industry: "Diversified Banks"
+    peers: [BAC, C, JPM, PNC, TFC, USB]
+  - ticker: WELL
+    name: "Welltower"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Health Care REITs"
+    peers: [DOC, VTR]
+  - ticker: WST
+    name: "West Pharmaceutical Services"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Supplies"
+    peers: [ALGN, COO]
+  - ticker: WDC
+    name: "Western Digital"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Technology Hardware & Equipment"
+    industry_group_etf:
+    gics_sub_industry: "Technology Hardware, Storage & Peripherals"
+    peers: [AAPL, DELL, HPE, HPQ, NTAP, SMCI, SNDK, STX]
+  - ticker: WY
+    name: "Weyerhaeuser"
+    gics_sector: "Real Estate"
+    sector_etf: XLRE
+    gics_industry_group: "Equity Real Estate Investment Trusts (REITs)"
+    industry_group_etf:
+    gics_sub_industry: "Timber REITs"
+    peers: []
+  - ticker: WSM
+    name: "Williams-Sonoma, Inc."
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Discretionary Distribution & Retail"
+    industry_group_etf: XRT
+    gics_sub_industry: "Homefurnishing Retail"
+    peers: []
+  - ticker: WMB
+    name: "Williams Companies"
+    gics_sector: "Energy"
+    sector_etf: XLE
+    gics_industry_group: "Energy"
+    industry_group_etf:
+    gics_sub_industry: "Oil & Gas Storage & Transportation"
+    peers: [KMI, OKE, TRGP]
+  - ticker: WTW
+    name: "Willis Towers Watson"
+    gics_sector: "Financials"
+    sector_etf: XLF
+    gics_industry_group: "Insurance"
+    industry_group_etf: KIE
+    gics_sub_industry: "Insurance Brokers"
+    peers: [AJG, AON, BRO, ERIE, MRSH]
+  - ticker: WDAY
+    name: "Workday, Inc."
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Software & Services"
+    industry_group_etf: IGV
+    gics_sub_industry: "Application Software"
+    peers: [ADBE, ADSK, APP, CDNS, CRM, DDOG, FICO, INTU, ORCL, PLTR, PTC, SNPS, TRMB, TYL]
+  - ticker: WYNN
+    name: "Wynn Resorts"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Services"
+    industry_group_etf:
+    gics_sub_industry: "Casinos & Gaming"
+    peers: [LVS, MGM]
+  - ticker: XEL
+    name: "Xcel Energy"
+    gics_sector: "Utilities"
+    sector_etf: XLU
+    gics_industry_group: "Utilities"
+    industry_group_etf:
+    gics_sub_industry: "Multi-Utilities"
+    peers: [AEE, CMS, CNP, D, DTE, ED, NEE, NI, PCG, PNW, SRE]
+  - ticker: XYL
+    name: "Xylem Inc."
+    gics_sector: "Industrials"
+    sector_etf: XLI
+    gics_industry_group: "Capital Goods"
+    industry_group_etf:
+    gics_sub_industry: "Industrial Machinery & Supplies & Components"
+    peers: [DOV, FTV, GWW, HUBB, IEX, IR, ITW, NDSN, OTIS, PH, PNR, SNA, SWK]
+  - ticker: YUM
+    name: "Yum! Brands"
+    gics_sector: "Consumer Discretionary"
+    sector_etf: XLY
+    gics_industry_group: "Consumer Services"
+    industry_group_etf:
+    gics_sub_industry: "Restaurants"
+    peers: [CMG, DPZ, DRI, MCD, SBUX]
+  - ticker: ZBRA
+    name: "Zebra Technologies"
+    gics_sector: "Information Technology"
+    sector_etf: XLK
+    gics_industry_group: "Technology Hardware & Equipment"
+    industry_group_etf:
+    gics_sub_industry: "Electronic Equipment & Instruments"
+    peers: [KEYS, ROP, TDY]
+  - ticker: ZBH
+    name: "Zimmer Biomet"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Health Care Equipment & Services"
+    industry_group_etf:
+    gics_sub_industry: "Health Care Equipment"
+    peers: [ABT, BAX, BDX, BSX, DXCM, EW, GEHC, IDXX, ISRG, MDT, PODD, RMD, RVTY, STE, SYK]
+  - ticker: ZTS
+    name: "Zoetis"
+    gics_sector: "Health Care"
+    sector_etf: XLV
+    gics_industry_group: "Pharmaceuticals, Biotechnology & Life Sciences"
+    industry_group_etf:
+    gics_sub_industry: "Pharmaceuticals"
+    peers: [BMY, JNJ, LLY, MRK, PFE, VTRS]
